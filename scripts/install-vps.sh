@@ -53,7 +53,7 @@ echo -e "${NC}"
 # Configuración
 DOMAIN="admin-tk.fun"
 VPS_IP="206.183.129.67"
-PROJECT_DIR="/root/Admin-TK"
+PROJECT_DIR="/home/joan/Admin-TK"
 DASHBOARD_PORT="3000"
 API_PORT="3001"
 
