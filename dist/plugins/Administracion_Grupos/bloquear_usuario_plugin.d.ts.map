@@ -1,0 +1,1 @@
+{"version":3,"file":"bloquear_usuario_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/bloquear_usuario_plugin.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAI7D,cAAM,qBAAsB,YAAW,aAAa;IAChD,IAAI,EAAE,MAAM,CAA2B;IACvC,QAAQ,EAAE,QAAQ,EAAE,CAqClB;CACL;AAED,eAAe,qBAAqB,CAAC"}

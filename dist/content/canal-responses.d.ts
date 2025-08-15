@@ -1,0 +1,13 @@
+export declare const CANAL_INVITE_MESSAGE: (botName: string, channelLink: string) => string;
+export declare const CANAL_SENDING_NOTICE = "\uD83D\uDCE2 *Enviando mensaje del canal...* Esto puede tardar unos segundos.";
+export declare const CANAL_ERROR_SENDING: (jid: string) => string;
+export declare const CANAL_SUMMARY_HEADER = "\u2705 *Mensaje del canal enviado correctamente*\n\n";
+export declare const CANAL_SUMMARY_TOTAL: (total: number) => string;
+export declare const CANAL_SUMMARY_USERS: (users: number) => string;
+export declare const CANAL_SUMMARY_GROUPS: (groups: number) => string;
+export declare const CANAL_SUMMARY_USERS_LIST = "\uD83D\uDCCB *Usuarios:*";
+export declare const CANAL_SUMMARY_GROUPS_LIST = "\uD83D\uDCCB *Grupos:*";
+export declare const CANAL_OWNER_ONLY = "\u274C Este comando es solo para el *owner*.";
+export declare const CANAL_REGISTER_FILE = "./chats_ya_notificados.json";
+export declare const CANAL_LINK = "https://whatsapp.com/channel/0029Vb8kvXUBfxnzYWsbS81I";
+//# sourceMappingURL=canal-responses.d.ts.map

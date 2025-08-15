@@ -1,0 +1,1 @@
+{"version":3,"file":"AnimeRonaldoCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anime/AnimeRonaldoCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAI7D,cAAM,kBAAmB,YAAW,aAAa;IAC/C,IAAI,EAAE,MAAM,CAAwB;IACpC,QAAQ,EAAE,QAAQ,EAAE,CAoClB;CACH;AAED,eAAe,kBAAkB,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"dl-anime.d.ts","sourceRoot":"","sources":["../../../src/plugins/Descargas/dl-anime.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AA+B7D,cAAM,mBAAoB,YAAW,aAAa;IAC9C,IAAI,EAAE,MAAM,CAAyB;IACrC,QAAQ,EAAE,QAAQ,EAAE,CAkFlB;IAEI,MAAM,CAAC,CAAC,EAAE,GAAG,EAAE,EAAE,IAAI,EAAE,EAAE,GAAG;CA6CrC;AAED,eAAe,mBAAmB,CAAC"}

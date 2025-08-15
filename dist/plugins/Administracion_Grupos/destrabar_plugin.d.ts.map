@@ -1,0 +1,1 @@
+{"version":3,"file":"destrabar_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/destrabar_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAQ7D,cAAM,eAAgB,YAAW,aAAa;IAC1C,IAAI,EAAE,MAAM,CAAqB;IACjC,QAAQ,EAAE,QAAQ,EAAE,CA0BlB;CACL;AAED,eAAe,eAAe,CAAC"}

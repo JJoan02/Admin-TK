@@ -1,0 +1,1 @@
+{"version":3,"file":"base-plugin.js","sourceRoot":"","sources":["../../../src/plugins/Utilidades/base-plugin.js"],"names":[],"mappings":"AAEA,MAAM,UAAU;IAKd,IAAI,GAAG,YAAY,CAAC;IAMpB,WAAW,GAAG,kCAAkC,CAAC;IAMjD,QAAQ,GAAG,EAcV,CAAC;IAMF,YAAY,YAAY,GAAG,EAAE;QAC3B,IAAI,CAAC,YAAY,GAAG,YAAY,CAAC;IACnC,CAAC;CACF;AAED,eAAe,UAAU,CAAC"}

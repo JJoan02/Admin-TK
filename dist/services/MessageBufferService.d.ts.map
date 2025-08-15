@@ -1,0 +1,1 @@
+{"version":3,"file":"MessageBufferService.d.ts","sourceRoot":"","sources":["../../src/services/MessageBufferService.ts"],"names":[],"mappings":"AAQA,cAAM,oBAAoB;;IAaxB,UAAU,CAAC,OAAO,KAAA,EAAE,OAAO,KAAA,EAAE,YAAY,KAAA;IAsCzC,WAAW,CAAC,OAAO,KAAA,EAAE,YAAY,KAAA;IA2BjC,eAAe,CAAC,YAAY,KAAA;IAY5B,oBAAoB,CAAC,OAAO,KAAA,EAAE,YAAY,KAAA;IAU1C,gBAAgB,CAAC,OAAO,KAAA;CAMzB;;AAED,wBAA0C"}

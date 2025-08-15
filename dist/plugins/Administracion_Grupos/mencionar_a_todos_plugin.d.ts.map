@@ -1,0 +1,1 @@
+{"version":3,"file":"mencionar_a_todos_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/mencionar_a_todos_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAM7D,cAAM,qBAAsB,YAAW,aAAa;IAChD,IAAI,SAA2B;IAC/B,QAAQ,EAAE,QAAQ,EAAE,CAsFlB;CACL;AAED,eAAe,qBAAqB,CAAC"}

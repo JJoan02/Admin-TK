@@ -1,0 +1,1 @@
+{"version":3,"file":"admin-setname.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/admin-setname.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAM7D,cAAM,kBAAmB,YAAW,aAAa;IAC7C,IAAI,EAAE,MAAM,CAAwB;IACpC,QAAQ,EAAE,QAAQ,EAAE,CAiClB;CACL;AAED,eAAe,kBAAkB,CAAC"}

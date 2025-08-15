@@ -1,0 +1,1 @@
+{"version":3,"file":"CosplayvideoCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anime/CosplayvideoCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAI7D,cAAM,kBAAmB,YAAW,aAAa;IAC/C,IAAI,EAAE,MAAM,CAAwB;IACpC,QAAQ,EAAE,QAAQ,EAAE,CA4BlB;CACH;AAED,eAAe,kBAAkB,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"antibadword.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anti/antibadword.js"],"names":[],"mappings":";AAoBA;IACI,MAAM,MAAM,CAAuB;IACnC,UAAU,QAAQ,EAAE,CAyDlB;IAEF,UAAgB,SAAS,0CAA0C;QAC/D,IAAI,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAC;QAAC,UAAU,EAAE,OAAO,CAAA;KACzE,oBAmGA;CACJ;yBAvLuC,oBAAoB;0BACV,yBAAyB"}

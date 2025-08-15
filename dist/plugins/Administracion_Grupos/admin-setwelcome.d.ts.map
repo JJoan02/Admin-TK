@@ -1,0 +1,1 @@
+{"version":3,"file":"admin-setwelcome.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/admin-setwelcome.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAK7D,cAAM,gBAAiB,YAAW,aAAa;IAC3C,IAAI,SAAsB;IAC1B,QAAQ,EAAE,QAAQ,EAAE,CAgBlB;CACL;AAED,eAAe,gBAAgB,CAAC"}

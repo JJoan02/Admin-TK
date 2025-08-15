@@ -1,0 +1,1 @@
+//# sourceMappingURL=rg-reg.d.ts.map

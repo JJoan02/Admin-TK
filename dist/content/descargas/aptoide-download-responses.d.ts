@@ -1,0 +1,11 @@
+export declare const APTOIDE_NO_TEXT = "*`Ingrese el nombre de la APK que quiera buscar. \uD83E\uDD0D`*";
+export declare const APTOIDE_NO_RESULTS = "*[\u2757] Error, no se encontraron resultados para su b\u00FAsqueda.*";
+export declare const APTOIDE_NO_DOWNLOAD_LINK = "*[\u2757] Error, no se pudo obtener el enlace de descarga para la APK.*";
+export declare const APTOIDE_INFO_HEADER = "\uD83D\uDCF2 *Descargador de Aptoide* \uD83D\uDCF2\n\n";
+export declare const APTOIDE_INFO_NAME: (name: string) => string;
+export declare const APTOIDE_INFO_PACKAGE: (packe: string) => string;
+export declare const APTOIDE_INFO_LAST_UPDATE: (lastup: string) => string;
+export declare const APTOIDE_INFO_SIZE: (size: string) => string;
+export declare const APTOIDE_FILE_TOO_LARGE = "*[ \u26D4 ] El archivo es demasiado pesado por lo que no se enviar\u00E1.* ";
+export declare const APTOIDE_ERROR_GENERIC = "*[\u2757] Ocurri\u00F3 un error al intentar descargar la APK.*";
+//# sourceMappingURL=aptoide-download-responses.d.ts.map

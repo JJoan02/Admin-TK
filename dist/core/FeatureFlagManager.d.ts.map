@@ -1,0 +1,1 @@
+{"version":3,"file":"FeatureFlagManager.d.ts","sourceRoot":"","sources":["../../src/core/FeatureFlagManager.ts"],"names":[],"mappings":"AAMA,cAAM,kBAAkB;;gBAKV,SAAS,KAAA,EAAE,MAAM,KAAA;IAMvB,IAAI;IAmBV,SAAS,CAAC,QAAQ,KAAA;IAUZ,OAAO,CAAC,QAAQ,KAAA,EAAE,MAAM,KAAA;IAqB9B,WAAW;CAGZ;AAED,eAAe,kBAAkB,CAAC"}

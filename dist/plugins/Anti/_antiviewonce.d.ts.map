@@ -1,0 +1,1 @@
+{"version":3,"file":"_antiviewonce.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anti/_antiviewonce.js"],"names":[],"mappings":";AASA;IACI,MAAM,MAAM,CAAwB;IACpC,UAAU,EAAE,CAAM;IAElB,UAAgB,SAAS,iCAAiC;QAAE,IAAI,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAC;QAAC,UAAU,EAAE,OAAO,CAAA;KAAE,gBAoBjH;CACJ;0BAjC8D,yBAAyB"}

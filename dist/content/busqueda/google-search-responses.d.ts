@@ -1,0 +1,9 @@
+export declare const GOOGLE_SEARCH_NO_QUERY: (smsAvisoMG: string, usedPrefix: string, command: string) => string;
+export declare const GOOGLE_SEARCH_NOT_FOUND: (query: string) => string;
+export declare const GOOGLE_SEARCH_RESULTS_HEADER_NEW: (query: string) => string;
+export declare const GOOGLE_SEARCH_RESULT_FORMAT: (title: string, url: string, description: string) => string;
+export declare const GOOGLE_SEARCH_EXTERNAL_AD_REPLY_TITLE = "Resultados de Google";
+export declare const GOOGLE_SEARCH_EXTERNAL_AD_REPLY_BODY = "B\u00FAsqueda potenciada por Admin-TK";
+export declare const GOOGLE_SEARCH_ERROR_SEARCH = "Error al realizar la b\u00FAsqueda en Google:";
+export declare const GOOGLE_SEARCH_ERROR_GENERIC: (smsMalError3: string, smsMensError2: string, usedPrefix: string, command: string, wm: string) => string;
+//# sourceMappingURL=google-search-responses.d.ts.map

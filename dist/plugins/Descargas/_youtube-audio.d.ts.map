@@ -1,0 +1,1 @@
+{"version":3,"file":"_youtube-audio.d.ts","sourceRoot":"","sources":["../../../src/plugins/Descargas/_youtube-audio.js"],"names":[],"mappings":";AAYA;IACI,MAAM,MAAM,CAAwB;IACpC,UAAU,QAAQ,EAAE,CAgBlB;IAEF,OAAa,SAAS,8BAA8B;QAChD,IAAI,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAA;KACpD,oBAyCA;CACJ;yBA5EuC,oBAAoB;0BAEzB,yBAAyB"}

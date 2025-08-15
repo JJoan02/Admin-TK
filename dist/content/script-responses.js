@@ -1,0 +1,12 @@
+export const SCRIPT_GITHUB_REPO = "https://api.github.com/repos/JJoan02/Admin-TK";
+export const SCRIPT_IMAGE_PATH = "./Page/admin-tk.jpg";
+export const SCRIPT_MESSAGE_HEADER = "      ⭕️ *| A D M I N - T K's Script |* ⭕️";
+export const SCRIPT_TOTAL_FORKS = "*🔄 Total Forks:*";
+export const SCRIPT_TOTAL_STARS = "*⭐ Total Stars:*";
+export const SCRIPT_LICENSE = "*📜 Licencia:*";
+export const SCRIPT_REPO_SIZE = "*📁 Tamaño del Repositorio:*";
+export const SCRIPT_LAST_UPDATED = "*📅 Última Actualización:*";
+export const SCRIPT_THANKS_MESSAGE = "*❝ Gracias por usar *A D M I N - T K.* ❞";
+export const SCRIPT_COPYRIGHT = "©️ JJoan02 - 2023";
+export const SCRIPT_ERROR_MESSAGE = "Ocurrió un error al obtener la información del script del bot.";
+//# sourceMappingURL=script-responses.js.map

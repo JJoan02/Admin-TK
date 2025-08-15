@@ -1,0 +1,1 @@
+{"version":3,"file":"expulsar_todos_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/expulsar_todos_plugin.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAK7D,cAAM,mBAAoB,YAAW,aAAa;IAC9C,IAAI,SAAyB;IAC7B,QAAQ,EAAE,QAAQ,EAAE,CAgClB;CACL;AAED,eAAe,mBAAmB,CAAC"}

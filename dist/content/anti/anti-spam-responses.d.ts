@@ -1,0 +1,10 @@
+export declare const ANTISPAM_TIME_WINDOW = 5000;
+export declare const ANTISPAM_MESSAGE_LIMIT = 10;
+export declare const ANTISPAM_WARN_LEVEL_1 = "\u1940\u0387\u08ED\u08EA\u0307\u02D6\u2694\uFE0F\u25D7 No hagas spam.";
+export declare const ANTISPAM_WARN_LEVEL_2 = "\u1940\u0387\u08ED\u08EA\u0307\u02D6\u2694\uFE0F\u25D7 No hagas spam...";
+export declare const ANTISPAM_WARN_LEVEL_3 = "\u1940\u0387\u08ED\u08EA\u0307\u02D6\uD83D\uDC7A\u25D7 Seras eliminado(a) por hacer spam.";
+export declare const ANTISPAM_WARNING_MESSAGE: (user: string) => string;
+export declare const ANTISPAM_RESET_TIME_1 = 30000;
+export declare const ANTISPAM_RESET_TIME_2 = 60000;
+export declare const ANTISPAM_RESET_TIME_3 = 120000;
+//# sourceMappingURL=anti-spam-responses.d.ts.map

@@ -1,0 +1,12 @@
+export declare const DEMOTE_GROUP_ONLY = "Este comando solo puede ser usado en grupos!";
+export declare const DEMOTE_BOT_NOT_ADMIN = "\u274C Error: Por favor, haz que el bot sea administrador primero para usar este comando.";
+export declare const DEMOTE_SENDER_NOT_ADMIN = "\u274C Error: Solo los administradores del grupo pueden usar el comando demote.";
+export declare const DEMOTE_ERROR_ADMIN_CHECK = "\u274C Error: Aseg\u00FArate de que el bot sea administrador de este grupo.";
+export declare const DEMOTE_NO_TARGET = "\u274C Error: \u00A1Menciona al usuario o responde a su mensaje para degradarlo!";
+export declare const DEMOTE_FAILED = "\u274C Fall\u00F3 la degradaci\u00F3n del usuario(s). Aseg\u00FArate de que el bot sea administrador y tenga los permisos suficientes.";
+export declare const DEMOTE_RATE_LIMIT = "\u274C L\u00EDmite de velocidad alcanzado. Int\u00E9ntalo de nuevo en unos segundos.";
+export declare const DEMOTE_MESSAGE_HEADER = "*\u300E DEGRADACI\u00D3N DE GRUPO \u300F*";
+export declare const DEMOTE_MESSAGE_USER: (count: number) => string;
+export declare const DEMOTE_MESSAGE_BY: (promoter: string) => string;
+export declare const DEMOTE_MESSAGE_DATE: (date: string) => string;
+//# sourceMappingURL=demote-responses.d.ts.map

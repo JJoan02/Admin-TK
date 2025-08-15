@@ -1,0 +1,11 @@
+export declare const TIKTOK_SEARCH_NO_QUERY = "\u274C Por favor, escribe lo que quieres buscar.\nEjemplo: .tiktoksearch videos de gatos";
+export declare const TIKTOK_SEARCH_SEARCHING: (query: string) => string;
+export declare const TIKTOK_SEARCH_NO_VIDEOS_FOUND = "\u274C No se encontraron videos para tu b\u00FAsqueda.";
+export declare const TIKTOK_SEARCH_NEXT_NO_SESSION = "\u274C Primero usa `.tiktoksearch` para buscar videos.";
+export declare const TIKTOK_SEARCH_NEXT_END_RESULTS = "\u2705 Has llegado al final de los resultados de esta b\u00FAsqueda. Puedes iniciar una nueva con `.tiktoksearch`.";
+export declare const TIKTOK_SEARCH_VIDEO_CAPTION: (current: number, total: number, query: string, title: string, author: string) => string;
+export declare const TIKTOK_SEARCH_SEND_VIDEO_ERROR = "\u274C Error al enviar el video. Es posible que el enlace no sea v\u00E1lido o que haya un problema con el servidor de TikTok.";
+export declare const TIKTOK_SEARCH_NEXT_BUTTON = "\u27A1\uFE0F Siguiente Video";
+export declare const TIKTOK_SEARCH_NO_SESSION_VIDEOS = "No hay videos disponibles en la sesi\u00F3n actual.";
+export declare const TIKTOK_SEARCH_API_ERROR = "\u274C Ocurri\u00F3 un error al realizar la b\u00FAsqueda de TikTok. Int\u00E9ntalo de nuevo m\u00E1s tarde.";
+//# sourceMappingURL=tiktok-search-download-responses.d.ts.map

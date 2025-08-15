@@ -1,0 +1,1 @@
+{"version":3,"file":"verificar_expiracion_grupo_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/verificar_expiracion_grupo_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAY7D,cAAM,8BAA+B,YAAW,aAAa;;IACzD,IAAI,EAAE,MAAM,CAAoC;IAChD,QAAQ,EAAE,QAAQ,EAAE,CAwBlB;CASL;AAED,eAAe,8BAA8B,CAAC"}

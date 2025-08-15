@@ -1,0 +1,1 @@
+{"version":3,"file":"antilink.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anti/antilink.js"],"names":[],"mappings":";AAYA;IACI,MAAM,MAAM,CAAoB;IAChC,UAAU,EAAE,CAAM;IAElB,UAAgB,SAAS,wCAAwC;QAC7D,IAAI,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAC;QAAC,QAAQ,EAAE,OAAO,CAAA;KACvE,oBAkEA;CACJ;0BAnF8C,yBAAyB"}

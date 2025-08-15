@@ -1,0 +1,1 @@
+{"version":3,"file":"ApkDownloadCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Descargas/ApkDownloadCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAQ7D,cAAM,iBAAkB,YAAW,aAAa;IAC9C,IAAI,EAAE,MAAM,CAAuB;IACnC,QAAQ,EAAE,QAAQ,EAAE,CAiClB;CACH;AAED,eAAe,iBAAiB,CAAC"}

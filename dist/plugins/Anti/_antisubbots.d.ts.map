@@ -1,0 +1,1 @@
+{"version":3,"file":"_antisubbots.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anti/_antisubbots.js"],"names":[],"mappings":";AAOA;IACI,MAAM,MAAM,CAAuB;IACnC,UAAU,EAAE,CAAM;IAElB,UAAgB,SAAS,0BAA0B;QAAE,IAAI,EAAE,OAAO,CAAC;QAAC,YAAY,EAAE,gBAAgB,EAAE,CAAA;KAAE,oBAwBrG;CACJ;0BAnCqE,yBAAyB;iCAAzB,yBAAyB"}

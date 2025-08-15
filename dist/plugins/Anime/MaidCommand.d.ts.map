@@ -1,0 +1,1 @@
+{"version":3,"file":"MaidCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anime/MaidCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAI7D,cAAM,UAAW,YAAW,aAAa;IACvC,IAAI,EAAE,MAAM,CAAgB;IAC5B,QAAQ,EAAE,QAAQ,EAAE,CA4BlB;CACH;AAED,eAAe,UAAU,CAAC"}

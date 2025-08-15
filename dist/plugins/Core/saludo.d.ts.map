@@ -1,0 +1,1 @@
+{"version":3,"file":"saludo.d.ts","sourceRoot":"","sources":["../../../src/plugins/Core/saludo.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAY7D,cAAM,YAAa,YAAW,aAAa;IACvC,IAAI,EAAE,MAAM,CAAkB;IAC9B,QAAQ,EAAE,QAAQ,EAAE,CA8DlB;CACL;AAED,eAAe,YAAY,CAAC"}

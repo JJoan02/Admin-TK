@@ -1,0 +1,1 @@
+{"version":3,"file":"admin-link.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/admin-link.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAG7D,cAAM,UAAW,YAAW,aAAa;IACrC,IAAI,SAAgB;IACpB,QAAQ,EAAE,QAAQ,EAAE,CAgBlB;CACL;AAED,eAAe,UAAU,CAAC"}

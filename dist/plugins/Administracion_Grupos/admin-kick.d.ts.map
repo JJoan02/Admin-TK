@@ -1,0 +1,1 @@
+{"version":3,"file":"admin-kick.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/admin-kick.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAK7D,cAAM,UAAW,YAAW,aAAa;IACrC,IAAI,SAAgB;IACpB,QAAQ,EAAE,QAAQ,EAAE,CAsClB;CACL;AAED,eAAe,UAAU,CAAC"}

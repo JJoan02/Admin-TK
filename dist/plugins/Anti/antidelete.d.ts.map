@@ -1,0 +1,1 @@
+{"version":3,"file":"antidelete.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anti/antidelete.js"],"names":[],"mappings":";AA+DA;IACI,MAAM,MAAM,CAAsB;IAClC,UAAU,QAAQ,EAAE,CAmClB;IAEF,OAAa,SAAS,YAAY;QAAE,IAAI,EAAE,OAAO,CAAA;KAAE,oBA8ClD;IAED,8BAAoC,OAAO,qBAAqB,SAAS,iBAmFxE;CACJ;yBA1OuC,oBAAoB;0BACG,yBAAyB"}

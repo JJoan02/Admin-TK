@@ -1,0 +1,10 @@
+export declare const ANIMEFLV_DOWNLOAD_USAGE: (usedPrefix: string, command: string) => string;
+export declare const ANIMEFLV_DOWNLOAD_API_ERROR = "\u26A0\uFE0F *Error al obtener datos de la API de AnimeFLV.*";
+export declare const ANIMEFLV_DOWNLOAD_MEGA_LINK_UNAVAILABLE = "\u26A0\uFE0F *Enlace de descarga de Mega no disponible para este episodio.*";
+export declare const ANIMEFLV_DOWNLOAD_FILE_SIZE_EXCEEDED: (limit: number) => string;
+export declare const ANIMEFLV_DOWNLOAD_STARTING: (fileName: string) => string;
+export declare const ANIMEFLV_DOWNLOAD_CAPTION: (fileName: string, fileSize: string) => string;
+export declare const ANIMEFLV_DOWNLOAD_SENDING: (fileName: string) => string;
+export declare const ANIMEFLV_DOWNLOAD_ERROR_GENERIC: (error: string) => string;
+export declare const ANIMEFLV_DOWNLOAD_MAX_FILE_SIZE_MB = 300;
+//# sourceMappingURL=animeflv-download-responses.d.ts.map

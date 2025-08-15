@@ -1,0 +1,9 @@
+export declare const GOOGLE_LYRICS_NO_TEXT: (smsAvisoMG: string, smsMalused: string) => string;
+export declare const GOOGLE_LYRICS_HEADER = "*\uD835\uDE42\uD835\uDE4A\uD835\uDE4A\uD835\uDE42\uD835\uDE47\uD835\uDE40 \uD835\uDE47\uD835\uDE54\uD835\uDE4D\uD835\uDE44\uD835\uDE3E\uD835\uDE4E \uD83E\uDEB4*\n\n";
+export declare const GOOGLE_LYRICS_TITLE: (title: string) => string;
+export declare const GOOGLE_LYRICS_ARTIST: (artist: string) => string;
+export declare const GOOGLE_LYRICS_ALBUM: (album: string) => string;
+export declare const GOOGLE_LYRICS_DATE: (date: string) => string;
+export declare const GOOGLE_LYRICS_GENRES: (genres: string) => string;
+export declare const GOOGLE_LYRICS_ERROR_REPORT: (smsMalError3: string, smsMensError2: string, usedPrefix: string, command: string, wm: string) => string;
+//# sourceMappingURL=google-lyrics-responses.d.ts.map

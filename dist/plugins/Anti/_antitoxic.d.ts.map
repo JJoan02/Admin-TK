@@ -1,0 +1,1 @@
+{"version":3,"file":"_antitoxic.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anti/_antitoxic.js"],"names":[],"mappings":";AASA;IACI,MAAM,MAAM,CAAqB;IACjC,UAAU,EAAE,CAAM;IAElB,UAAgB,SAAS,0CAA0C;QAC/D,IAAI,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAC;QAAC,UAAU,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAA;KACzE,oBA+BA;CACJ;0BA9CkC,yBAAyB"}

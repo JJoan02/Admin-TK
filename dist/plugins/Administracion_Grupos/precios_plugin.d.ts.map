@@ -1,0 +1,1 @@
+{"version":3,"file":"precios_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/precios_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAM7D,cAAM,aAAc,YAAW,aAAa;IACxC,IAAI,EAAE,MAAM,CAAmB;IAC/B,QAAQ,EAAE,QAAQ,EAAE,CAwBlB;CACL;AAED,eAAe,aAAa,CAAC"}

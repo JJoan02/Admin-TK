@@ -1,0 +1,22 @@
+export const AUTODETECT_MAIN_BOT_ONLY = "Utiliza este comando directamente en el número principal del Bot";
+export const AUTODETECT_SESSION_FILE_DELETED = (file) => `Archivo Eliminado: '${file}'\n(Session PreKey) que provoca el "undefined" en el chat`;
+export const AUTODETECT_ERROR_READING_SESSION_FOLDER = "Error al leer la carpeta o los archivos de sesión:";
+export const AUTODETECT_ERROR_DELETING_SESSION_FILES = "Ocurrió un error al eliminar los archivos de sesión";
+export const AUTODETECT_WELCOME_DEFAULT_DESC = "😻 𝗦𝘂𝗽𝗲𝗿 Admin-TK";
+export const AUTODETECT_WELCOME_DEFAULT_MESSAGE = (subject, userName, descs) => `*╭┈⊰* ${subject} *⊰┈ ✦*\n*┊✨ BIENVENIDO(A)!!*\n┊💖 @${userName}\n┊📄 *LEA LA DESCRIPCIÓN DEL GRUPO*\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ✦*\n${descs}`;
+export const AUTODETECT_GOODBYE_DEFAULT_MESSAGE = (userName) => `*╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰*\n┊ @${userName}\n┊ *NO LE SABE AL GRUPO, CHAO!!* 😎\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰*`;
+export const AUTODETECT_FORBIDDEN_PREFIXES = ['91', '92', '222', '93', '265', '61', '62', '966', '229', '40', '49', '20', '963', '967', '234', '210', '212'];
+export const AUTODETECT_REQUEST_REJECTED = (usersConPrefijo) => `Solicitud de ingreso de ${usersConPrefijo} rechazada automáticamente por tener un prefijo prohibido.`;
+export const AUTODETECT_REQUEST_APPROVED = (usersConPrefijo) => `Solicitud de ingreso de ${usersConPrefijo} aprobada automáticamente.`;
+export const AUTODETECT_REQUEST_APPROVED_NO_ANTIFAKE = (usersConPrefijo) => `Solicitud de ingreso de ${usersConPrefijo} aprobada automáticamente ya que #antifake está desactivado.`;
+export const AUTODETECT_ERROR_REJECTING_REQUEST = (usersConPrefijo) => `Error al rechazar la solicitud de ${usersConPrefijo}:`;
+export const AUTODETECT_ERROR_APPROVING_REQUEST = (usersConPrefijo) => `Error al aprobar la solicitud de ${usersConPrefijo}:`;
+export const AUTODETECT_ERROR_GENERAL = "Ocurrió un error en la autodetección.";
+export const AUTODETECT_GROUP_NAME_CHANGED = (usuario, newName) => `*${usuario}*\n✨️ Ha cambiado el nombre del grupo\n\n🌻 Ahora el grupo se llama:\n*${newName}*`;
+export const AUTODETECT_GROUP_PHOTO_CHANGED = (usuario) => `*${usuario}*\n🚩 Ha cambiado la imagen del grupo`;
+export const AUTODETECT_GROUP_LINK_RESET = (usuario) => `🌸 El enlace del grupo ha sido restablecido por:\n*» ${usuario}*`;
+export const AUTODETECT_GROUP_SETTINGS_CHANGED = (usuario, setting) => `*${usuario}*\n🌺 Ha permitido que ${setting === 'on' ? 'solo admins' : 'todos'} puedan configurar el grupo`;
+export const AUTODETECT_GROUP_STATUS_CHANGED = (usuario, status) => `El grupo ha sido ${status === 'on' ? '*cerrado 🔒*' : '*abierto 🔓*'} Por *${usuario}*\n\n💬 Ahora ${status === 'on' ? '*solo admins*' : '*todos*'} pueden enviar mensaje`;
+export const AUTODETECT_ADMIN_PROMOTED = (promotedUser, promoterUser) => `*@${promotedUser}* Ahora es admin del grupo 🥳\n\n💫 Acción hecha por:\n*» ${promoterUser}*`;
+export const AUTODETECT_ADMIN_DEMOTED = (demotedUser, demoterUser) => `*@${demotedUser}* Deja de ser admin del grupo 😿\n\n💫 Acción hecha por:\n*» ${demoterUser}*`;
+//# sourceMappingURL=autodetectar-responses.js.map

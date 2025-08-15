@@ -1,0 +1,1 @@
+{"version":3,"file":"GroupSettingsService.d.ts","sourceRoot":"","sources":["../../src/services/GroupSettingsService.ts"],"names":[],"mappings":"AAQA,cAAM,oBAAoB;WACX,eAAe,CAAC,OAAO,KAAA,EAAE,WAAW,KAAA;WAWpC,eAAe,CAAC,OAAO,KAAA,EAAE,WAAW,KAAA,EAAE,KAAK,KAAA;WAe3C,kBAAkB,CAAC,OAAO,KAAA,EAAE,WAAW,KAAA,EAAE,KAAK,KAAA;WAe9C,wBAAwB,CAAC,OAAO,KAAA;CAc9C;AAED,eAAe,oBAAoB,CAAC"}

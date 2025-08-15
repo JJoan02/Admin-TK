@@ -1,0 +1,1 @@
+{"version":3,"file":"obtener_grupos_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/obtener_grupos_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAO7D,cAAM,mBAAoB,YAAW,aAAa;IAC9C,IAAI,EAAE,MAAM,CAAyB;IACrC,QAAQ,EAAE,QAAQ,EAAE,CAyBlB;CACL;AAED,eAAe,mBAAmB,CAAC"}

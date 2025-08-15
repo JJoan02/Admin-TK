@@ -1,0 +1,12 @@
+export declare const YOUTUBE_SEARCH_NO_TEXT: (usedPrefix: string, command: string) => string;
+export declare const YOUTUBE_SEARCH_SEARCHING: (query: string) => string;
+export declare const YOUTUBE_SEARCH_NO_RESULTS = "No se encontraron resultados en YouTube.";
+export declare const YOUTUBE_SEARCH_VIDEO_HEADER = "\u2318\u2501\u2500\u2501\u2500\u226A\uD80C\uDD02*Barboza*\uD834\uDD22\u2500\u2501\u2500\u2501\u2318\n\n";
+export declare const YOUTUBE_SEARCH_VIDEO_TITLE: (title: string) => string;
+export declare const YOUTUBE_SEARCH_VIDEO_DURATION: (duration: string) => string;
+export declare const YOUTUBE_SEARCH_DOWNLOAD_INSTRUCTIONS = "SI QUIERES DESCARGAR AUDIO/VIDEO USA LOS COMANDOS MAS LA URL DEL VIDEO\n";
+export declare const YOUTUBE_SEARCH_DOWNLOAD_AUDIO_COMMAND: (url: string) => string;
+export declare const YOUTUBE_SEARCH_DOWNLOAD_VIDEO_COMMAND: (url: string) => string;
+export declare const YOUTUBE_SEARCH_FOOTER = "> \u00A9 Prohibido la copia, C\u00F3digo Oficial de Barboza MD\u2122";
+export declare const YOUTUBE_SEARCH_ERROR: (error: string) => string;
+//# sourceMappingURL=youtube-search-responses.d.ts.map

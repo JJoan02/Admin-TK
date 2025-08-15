@@ -1,0 +1,1 @@
+{"version":3,"file":"_youtube-video.d.ts","sourceRoot":"","sources":["../../../src/plugins/Descargas/_youtube-video.js"],"names":[],"mappings":";AAcA;IACI,MAAM,MAAM,CAAwB;IACpC,UAAU,QAAQ,EAAE,CAgBlB;IAEF,OAAa,SAAS,8BAA8B;QAChD,IAAI,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAA;KACpD,gBAqCA;CACJ;yBAzEuC,oBAAoB;0BAEzB,yBAAyB"}

@@ -1,0 +1,20 @@
+export const MOVIE_INFO_NO_TEXT = (usedPrefix, command) => `*[❕] Ingrese el nombre de una película*\n\n*❍ EJEMPLO: ${usedPrefix + command} Batman*`;
+export const MOVIE_INFO_NOT_FOUND = (title) => `*[❕] No se encontró la película: ${title}*`;
+export const MOVIE_INFO_HEADER = "🎬「 PELÍCULAS 」🎬";
+export const MOVIE_INFO_TITLE = "*Titulo ∙*";
+export const MOVIE_INFO_YEAR = "*Publicado ∙*";
+export const MOVIE_INFO_RUNTIME = "*Duracion ∙*";
+export const MOVIE_INFO_GENRE = "*Genero ∙*";
+export const MOVIE_INFO_DIRECTOR = "*Director ∙*";
+export const MOVIE_INFO_ACTORS = "*Actores ∙*";
+export const MOVIE_INFO_LANGUAGE = "*Lenguajes ∙*";
+export const MOVIE_INFO_AWARDS = "*Awards ∙*";
+export const MOVIE_INFO_VOTES = "*Votos ∙*";
+export const MOVIE_INFO_SCORE = "*Score ∙*";
+export const MOVIE_INFO_TYPE = "*Tipo ∙*";
+export const MOVIE_INFO_BOX_OFFICE = "*Recaudado ∙*";
+export const MOVIE_INFO_COUNTRY = "*Grabacion ∙*";
+export const MOVIE_INFO_REQUESTED_BY = (sender) => `   ❕Pedido por @${sender}`;
+export const MOVIE_INFO_FOOTER = "*🔥 sᥲsᥙkᥱ ᑲ᥆𝗍 mძ 🌀*";
+export const OMDB_API_KEY = "caba8d6f";
+//# sourceMappingURL=movie-info-responses.js.map

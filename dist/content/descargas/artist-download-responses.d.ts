@@ -1,0 +1,10 @@
+export declare const ARTIST_DOWNLOAD_ALREADY_DOWNLOADING = "\u26A0\uFE0F \u00A1Ya hay una descarga en curso! No interrumpas el proceso.";
+export declare const ARTIST_DOWNLOAD_NO_ARTIST_NAME: (usedPrefix: string) => string;
+export declare const ARTIST_DOWNLOAD_STARTING = "\uD83D\uDD14 *Iniciando descarga de m\u00FAsica por artista.*\n\n\u23F3 Por favor, no interrumpas el proceso.";
+export declare const ARTIST_DOWNLOAD_NO_RESULTS = "\u26A0\uFE0F No se encontraron resultados para ese artista.";
+export declare const ARTIST_DOWNLOAD_SEARCH_ERROR: (error: string) => string;
+export declare const ARTIST_DOWNLOAD_TRACK_CAPTION: (title: string, artist: string, album: string) => string;
+export declare const ARTIST_DOWNLOAD_SUCCESS = "\u2705 *Descargas Finalizadas Exitosamente.*";
+export declare const ARTIST_DOWNLOAD_ERROR_DOWNLOAD_TRACK = "No se pudo obtener el enlace de descarga.";
+export declare const ARTIST_DOWNLOAD_ERROR_FETCH_AUDIO: (status: number) => string;
+//# sourceMappingURL=artist-download-responses.d.ts.map

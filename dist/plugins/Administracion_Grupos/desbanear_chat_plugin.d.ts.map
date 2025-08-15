@@ -1,0 +1,1 @@
+{"version":3,"file":"desbanear_chat_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/desbanear_chat_plugin.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAO7D,cAAM,mBAAoB,YAAW,aAAa;IAC9C,IAAI,SAAyB;IAC7B,QAAQ,EAAE,QAAQ,EAAE,CAclB;CACL;AAED,eAAe,mBAAmB,CAAC"}

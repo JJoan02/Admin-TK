@@ -1,0 +1,1 @@
+{"version":3,"file":"advertencia_grupo_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/advertencia_grupo_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAS7D,cAAM,sBAAuB,YAAW,aAAa;IACjD,IAAI,EAAE,MAAM,CAA4B;IACxC,QAAQ,EAAE,QAAQ,EAAE,CAqElB;CACL;AAED,eAAe,sBAAsB,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"MenuAudiosCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Audio/MenuAudiosCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAQ7D,cAAM,gBAAiB,YAAW,aAAa;IAC7C,IAAI,EAAE,MAAM,CAAsB;IAClC,QAAQ,EAAE,QAAQ,EAAE,CAiDlB;CACH;AAED,eAAe,gBAAgB,CAAC"}

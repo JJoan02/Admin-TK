@@ -1,0 +1,14 @@
+export declare const WARN_USAGE_MESSAGE: (usedPrefix: string, command: string, suittag: string) => string;
+export declare const WARN_SUCCESS_MESSAGE: (who: string, reason: string, warnCount: number) => string;
+export declare const WARN_RESTRICT_DISABLED = "*[\u2757] EL PROPIETARIO DEL BOT NO TIENE HABILITADO LAS RESTRICCIONES (#enable restrict) CONTACTE CON EL PARA QUE LO HABILITE*";
+export declare const WARN_REMOVED_MESSAGE: (who: string) => string;
+export declare const WARN_DEFAULT_REASON = "No especificado";
+export declare const WARN_BOT_MENTIONED = "No puedo advertirme a m\u00ED mismo.";
+export declare const WARN_ERROR_MESSAGE = "Ocurri\u00F3 un error al procesar la advertencia.";
+export declare const WARN_LIST_HEADER = "\u26A0\uFE0F USUARIOS ADVERTIDOS";
+export declare const WARN_LIST_TOTAL_USERS: (total: number) => string;
+export declare const WARN_LIST_USER_DETAIL: (index: number, name: string, warnCount: number, isOwner: boolean, jid: string) => string;
+export declare const WARN_LIST_NO_USERS = "Sin Usuarios";
+export declare const WARN_LIST_WARNING_COUNT: (warns: number) => string;
+export declare const WARN_LIST_ERROR = "Ocurri\u00F3 un error al listar las advertencias.";
+//# sourceMappingURL=advertencia-responses.d.ts.map

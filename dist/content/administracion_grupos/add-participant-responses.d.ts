@@ -1,0 +1,10 @@
+export declare const ADD_PARTICIPANT_NO_TARGET = "Por favor, proporciona el n\u00FAmero del miembro a a\u00F1adir (ej: 54911... o @usuario).";
+export declare const ADD_PARTICIPANT_NO_PLUS = "Ingrese el n\u00FAmero todo junto sin el +.";
+export declare const ADD_PARTICIPANT_INVALID_NUMBER = "Ingrese solo n\u00FAmeros m\u00E1s su c\u00F3digo de pa\u00EDs sin espacios.";
+export declare const ADD_PARTICIPANT_RESTRICT: (smsAvisoAG: string, smsSoloOwner: string) => string;
+export declare const ADD_PARTICIPANT_INVITE_MESSAGE: (groupLink: string, smsAdd: string) => string;
+export declare const ADD_PARTICIPANT_INVITE_SENT: (targetNumber: string) => string;
+export declare const ADD_PARTICIPANT_ADDED: (targetNumber: string, smsAdd2: string) => string;
+export declare const ADD_PARTICIPANT_ADD_ERROR: (targetNumber: string, status: string) => string;
+export declare const ADD_PARTICIPANT_ERROR = "Ocurri\u00F3 un error al intentar a\u00F1adir al miembro.";
+//# sourceMappingURL=add-participant-responses.d.ts.map

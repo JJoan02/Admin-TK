@@ -1,0 +1,1 @@
+{"version":3,"file":"doxxing_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Diversion/doxxing_plugin.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAI7D,cAAM,aAAc,YAAW,aAAa;IACxC,IAAI,EAAE,MAAM,CAAmB;IAC/B,QAAQ,EAAE,QAAQ,EAAE,CAuBlB;CACL;AAED,eAAe,aAAa,CAAC"}

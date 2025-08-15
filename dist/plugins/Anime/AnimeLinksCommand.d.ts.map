@@ -1,0 +1,1 @@
+{"version":3,"file":"AnimeLinksCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anime/AnimeLinksCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAI7D,cAAM,gBAAiB,YAAW,aAAa;IAC7C,IAAI,EAAE,MAAM,CAAsB;IAClC,QAAQ,EAAE,QAAQ,EAAE,CAmClB;CACH;AAED,eAAe,gBAAgB,CAAC"}

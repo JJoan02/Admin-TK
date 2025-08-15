@@ -1,0 +1,1 @@
+{"version":3,"file":"_antivirus.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anti/_antivirus.js"],"names":[],"mappings":";AAGA;IACI,MAAM,MAAM,CAAqB;IACjC,UAAU,EAAE,CAAM;IAElB,OAAa,SAAS,wBAAwB;QAAE,IAAI,EAAE,OAAO,CAAC;QAAC,UAAU,EAAE,OAAO,CAAA;KAAE,oBAanF;CACJ;0BApBkC,yBAAyB"}

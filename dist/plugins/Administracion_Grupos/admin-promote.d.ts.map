@@ -1,0 +1,1 @@
+{"version":3,"file":"admin-promote.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/admin-promote.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAG7D,cAAM,aAAc,YAAW,aAAa;IACxC,IAAI,SAAmB;IACvB,QAAQ,EAAE,QAAQ,EAAE,CA+ClB;CACL;AAED,eAAe,aAAa,CAAC"}

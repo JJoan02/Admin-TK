@@ -1,0 +1,11 @@
+export declare const YOUTUBE_PLAYLIST_NO_TEXT: (smsAvisoMG: string) => string;
+export declare const YOUTUBE_PLAYLIST_SEARCH_HEADER: (text: string) => string;
+export declare const YOUTUBE_PLAYLIST_RESULTS_HEADER: (htki: string, htka: string) => string;
+export declare const YOUTUBE_PLAYLIST_SEARCH_TEXT: (text: string) => string;
+export declare const YOUTUBE_PLAYLIST_BUTTON_TEXT = "B U S C A R";
+export declare const YOUTUBE_PLAYLIST_AUDIO_HEADER = "\uD835\uDDD4 \uD835\uDDE8 \uD835\uDDD7 \uD835\uDDDC \uD835\uDDE2";
+export declare const YOUTUBE_PLAYLIST_VIDEO_HEADER = "\uD835\uDDE9 \uD835\uDDDC \uD835\uDDD7 \uD835\uDDD8 \uD835\uDDE2";
+export declare const YOUTUBE_PLAYLIST_AUDIO_DOC_HEADER = "\uD835\uDDD4 \uD835\uDDE8 \uD835\uDDD7 \uD835\uDDDC \uD835\uDDE2   \uD835\uDDD7 \uD835\uDDE2 \uD835\uDDD6";
+export declare const YOUTUBE_PLAYLIST_VIDEO_DOC_HEADER = "\uD835\uDDE9 \uD835\uDDDC \uD835\uDDD7 \uD835\uDDD8 \uD835\uDDE2   \uD835\uDDD7 \uD835\uDDE2 \uD835\uDDD6";
+export declare const YOUTUBE_PLAYLIST_ERROR_REPORT: (wm: string, smsMalError3: string, smsMensError1: string, smsMensError2: string, usedPrefix: string, command: string) => string;
+//# sourceMappingURL=youtube-playlist-responses.d.ts.map

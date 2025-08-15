@@ -1,0 +1,1 @@
+{"version":3,"file":"rentar_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/rentar_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAW7D,cAAM,YAAa,YAAW,aAAa;IACvC,IAAI,EAAE,MAAM,CAAkB;IAC9B,QAAQ,EAAE,QAAQ,EAAE,CA8ClB;CACL;AAED,eAAe,YAAY,CAAC"}

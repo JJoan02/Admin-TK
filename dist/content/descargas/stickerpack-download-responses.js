@@ -1,0 +1,3 @@
+export const STICKERPACK_NO_URL = (smsAvisoMG, smsMalused8, usedPrefix, command) => `${smsAvisoMG}${smsMalused8}\n${usedPrefix + command} https://getstickerpack.com/stickers/flork-memes-4-1`;
+export const STICKERPACK_ERROR_REPORT = (smsMalError3, smsMensError1, smsMensError2, usedPrefix, command) => `${smsMalError3}\n*${smsMensError1}*\n*${usedPrefix}report ${smsMensError2} ${usedPrefix + command}*`;
+//# sourceMappingURL=stickerpack-download-responses.js.map

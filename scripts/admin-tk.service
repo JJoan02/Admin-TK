@@ -1,0 +1,38 @@
+[Unit]
+Description=Admin-TK Dashboard Service
+Documentation=https://github.com/JJoan02/Admin-TK
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/Admin-TK
+Environment=NODE_ENV=production
+Environment=DASHBOARD_PORT=3000
+Environment=API_PORT=3001
+Environment=DOMAIN=admin-tk.fun
+Environment=VPS_IP=206.183.129.67
+ExecStartPre=/bin/bash -c 'cd /root/Admin-TK && npm install --production'
+ExecStartPre=/bin/bash -c 'cd /root/Admin-TK && npm run build'
+ExecStart=/usr/bin/node /root/Admin-TK/index.ts
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=admin-tk
+
+# Configuración de seguridad
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/root/Admin-TK
+ProtectHome=true
+
+# Límites de recursos
+LimitNOFILE=65536
+LimitNPROC=4096
+
+[Install]
+WantedBy=multi-user.target

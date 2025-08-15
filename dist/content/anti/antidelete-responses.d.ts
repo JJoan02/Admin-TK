@@ -1,0 +1,14 @@
+export declare const ANTIDELETE_OWNER_ONLY = "*Solo el propietario del bot puede usar este comando.*";
+export declare const ANTIDELETE_SETUP_MESSAGE: (status: string) => string;
+export declare const ANTIDELETE_INVALID_COMMAND = "*Comando inv\u00E1lido. Usa .antidelete para ver el uso.*";
+export declare const ANTIDELETE_ENABLED_SUCCESS: (status: string) => string;
+export declare const ANTIDELETE_REPORT_HEADER = "*\uD83D\uDD30 ANTIDELETE REPORT \uD83D\uDD30*\n\n";
+export declare const ANTIDELETE_REPORT_DELETED_BY: (user: string) => string;
+export declare const ANTIDELETE_REPORT_SENDER: (user: string) => string;
+export declare const ANTIDELETE_REPORT_NUMBER: (number: string) => string;
+export declare const ANTIDELETE_REPORT_TIME: (time: string) => string;
+export declare const ANTIDELETE_REPORT_GROUP: (group: string) => string;
+export declare const ANTIDELETE_REPORT_MESSAGE: (message: string) => string;
+export declare const ANTIDELETE_REPORT_MEDIA_CAPTION: (type: string, user: string) => string;
+export declare const ANTIDELETE_REPORT_MEDIA_ERROR: (error: string) => string;
+//# sourceMappingURL=antidelete-responses.d.ts.map

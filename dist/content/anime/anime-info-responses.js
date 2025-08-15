@@ -1,0 +1,16 @@
+export const ANIME_INFO_NO_TEXT = "💣 *Ingrese el nombre de algun anime*\n\nEjemplo: .infoanime Megumin";
+export const ANIME_INFO_FETCH_ERROR = "❌ *Ocurrió un fallo al buscar el anime.*";
+export const ANIME_INFO_HEADER = "      💣 *I N F O - A N I M E* 💣\n\n";
+export const ANIME_INFO_TITLE = "🍟 Título:";
+export const ANIME_INFO_CHAPTERS = "🚩 Capítulo:";
+export const ANIME_INFO_TYPE = "💫 Transmisión:";
+export const ANIME_INFO_STATUS = "🗂 Estado:";
+export const ANIME_INFO_VOLUMES = "🗃 Volumes:";
+export const ANIME_INFO_FAVORITES = "🌟 Favorito:";
+export const ANIME_INFO_SCORE = "🧮 Puntaje:";
+export const ANIME_INFO_MEMBERS = "👥 Miembros:";
+export const ANIME_INFO_URL = "🔗 Url:";
+export const ANIME_INFO_AUTHOR = "👨‍🔬 Autor:";
+export const ANIME_INFO_BACKGROUND = "📝 Fondo:";
+export const ANIME_INFO_SYNOPSIS = "💬 Sinopsis:";
+//# sourceMappingURL=anime-info-responses.js.map
