@@ -87,7 +87,7 @@ systemctl enable --now ufw
 header "INSTALANDO NODE.JS"
 if ! command -v node &> /dev/null || [ "$(node --version | cut -d'v' -f2 | cut -d'.' -f1)" -lt 18 ]; then
     log "📥 Instalando Node.js 18..."
-    dnf module install -y nodejs:18
+    dnf module install -y nodejs:20
 else
     log "✅ Node.js ya está instalado: $(node --version)"
 fi
@@ -140,7 +140,7 @@ fi
 # Instalar dependencias del proyecto
 header "INSTALANDO DEPENDENCIAS DEL PROYECTO"
 log "📦 Instalando dependencias de Node.js..."
-npm install --production
+npm install --omit=dev --ignore-scripts
 
 # Compilar TypeScript
 header "COMPILANDO PROYECTO"
@@ -395,7 +395,7 @@ echo "📦 Actualizando Admin-TK..."
 cd /root/Admin-TK
 pm2 stop admin-tk
 git pull
-npm install --production
+npm install --omit=dev --ignore-scripts
 npm run build
 pm2 start admin-tk
 echo "✅ Admin-TK actualizado"
