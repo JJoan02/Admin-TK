@@ -6,7 +6,7 @@ import { SubBotManager } from './SubBotManager.js';
 import { APIServer } from '../api/APIServer.js';
 import { DashboardServer } from './DashboardServer.js';
 import { DatabaseService } from '../database/DatabaseService.js';
-import domainConfig from '../../config/domain.config.js';
+import domainConfig from '../../config/config.js';
 
 const moduleLogger = createModuleLogger('AdminTKServer');
 
