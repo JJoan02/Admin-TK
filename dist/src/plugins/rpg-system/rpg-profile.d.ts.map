@@ -1,0 +1,1 @@
+{"version":3,"file":"rpg-profile.d.ts","sourceRoot":"","sources":["../../../../src/plugins/rpg-system/rpg-profile.ts"],"names":[],"mappings":"AAKA,OAAO,EAAE,UAAU,EAAE,MAAM,uBAAuB,CAAC;AAInD,qBAAa,gBAAiB,SAAQ,UAAU;;IAcxC,OAAO,CAAC,OAAO,EAAE,GAAG,GAAG,OAAO,CAAC,IAAI,CAAC;YAkD5B,iBAAiB;YAKjB,aAAa;CAM5B;AAGD,QAAA,MAAM,OAAO;QAAa,GAAG,uCAAuC,GAAG;;CAWtE,CAAC;AAGF,eAAe,OAAO,CAAC"}

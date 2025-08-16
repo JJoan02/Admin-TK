@@ -1,8 +1,9 @@
-// src/api/InternalAPIService.ts - API interna para búsquedas y descargas
+// src/api/InternalAPIService.ts - API interna para búsquedas, descargas y traducción
 
 import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
 import { createModuleLogger } from '../utils/logger.js';
 import { EventEmitter } from 'events';
+import { TranslationService, TranslationResult } from '../services/TranslationService.js';
 
 const logger = createModuleLogger('InternalAPIService');
 
@@ -43,11 +44,13 @@ export class InternalAPIService extends EventEmitter {
   private httpClient!: AxiosInstance;
   private endpoints: Map<string, APIEndpoint> = new Map();
   private rateLimits: Map<string, { count: number; resetTime: number }> = new Map();
+  private translationService: TranslationService;
 
   private constructor() {
     super();
     this.setupHttpClient();
     this.loadEndpoints();
+    this.translationService = new TranslationService();
   }
 
   public static getInstance(): InternalAPIService {
@@ -172,6 +175,15 @@ export class InternalAPIService extends EventEmitter {
       apiKey: process.env.PINTEREST_API_KEY,
       rateLimit: 1000,
       timeout: 10000,
+      retries: 2
+    });
+
+    // Translation Service (interno)
+    this.endpoints.set('translation', {
+      name: 'Translation Service',
+      baseUrl: 'internal://translation',
+      rateLimit: 500, // Límite más alto para traducción
+      timeout: 15000,
       retries: 2
     });
 
@@ -559,6 +571,126 @@ export class InternalAPIService extends EventEmitter {
     } else {
       return `${minutes}:${(seconds % 60).toString().padStart(2, '0')}`;
     }
+  }
+
+  /**
+   * Traduce texto usando el servicio de traducción
+   */
+  async translateText(text: string, langTo: string, langFrom: string = 'auto'): Promise<TranslationResult> {
+    if (!this.checkRateLimit('translation')) {
+      throw new Error('Rate limit excedido para Translation API');
+    }
+
+    try {
+      logger.info(`🌐 Traduciendo texto: ${langFrom} → ${langTo}`);
+      const result = await this.translationService.translate(text, langTo, langFrom);
+      
+      this.emit('translationCompleted', { 
+        from: langFrom, 
+        to: langTo, 
+        textLength: text.length,
+        success: true 
+      });
+      
+      return result;
+
+    } catch (error) {
+      logger.error({ err: error, text: text.substring(0, 50) }, 'Error en traducción');
+      this.emit('translationCompleted', { 
+        from: langFrom, 
+        to: langTo, 
+        textLength: text.length,
+        success: false,
+        error: error instanceof Error ? error.message : 'Error desconocido'
+      });
+      throw error;
+    }
+  }
+
+  /**
+   * Detecta el idioma de un texto
+   */
+  async detectLanguage(text: string): Promise<string> {
+    if (!this.checkRateLimit('translation')) {
+      throw new Error('Rate limit excedido para Translation API');
+    }
+
+    try {
+      logger.info(`🔍 Detectando idioma del texto`);
+      const detectedLang = await this.translationService.detectLanguage(text);
+      
+      this.emit('languageDetected', { 
+        textLength: text.length,
+        detectedLanguage: detectedLang,
+        success: true 
+      });
+      
+      return detectedLang;
+
+    } catch (error) {
+      logger.error({ err: error, text: text.substring(0, 50) }, 'Error detectando idioma');
+      this.emit('languageDetected', { 
+        textLength: text.length,
+        success: false,
+        error: error instanceof Error ? error.message : 'Error desconocido'
+      });
+      throw error;
+    }
+  }
+
+  /**
+   * Traduce múltiples textos en lote
+   */
+  async translateBatch(texts: string[], langTo: string, langFrom: string = 'auto'): Promise<TranslationResult[]> {
+    if (!this.checkRateLimit('translation')) {
+      throw new Error('Rate limit excedido para Translation API');
+    }
+
+    try {
+      logger.info(`📦 Traduciendo lote de ${texts.length} textos: ${langFrom} → ${langTo}`);
+      const results = await this.translationService.translateBatch(texts, langTo, langFrom);
+      
+      this.emit('batchTranslationCompleted', { 
+        from: langFrom, 
+        to: langTo, 
+        count: texts.length,
+        success: true 
+      });
+      
+      return results;
+
+    } catch (error) {
+      logger.error({ err: error, count: texts.length }, 'Error en traducción por lotes');
+      this.emit('batchTranslationCompleted', { 
+        from: langFrom, 
+        to: langTo, 
+        count: texts.length,
+        success: false,
+        error: error instanceof Error ? error.message : 'Error desconocido'
+      });
+      throw error;
+    }
+  }
+
+  /**
+   * Obtiene idiomas soportados para traducción
+   */
+  getSupportedLanguages(): Array<{ code: string; name: string; nativeName: string }> {
+    return this.translationService.getSupportedLanguages();
+  }
+
+  /**
+   * Verifica si un idioma es soportado
+   */
+  isLanguageSupported(langCode: string): boolean {
+    return this.translationService.isLanguageSupported(langCode);
+  }
+
+  /**
+   * Obtiene información de un idioma
+   */
+  getLanguageInfo(langCode: string): { code: string; name: string; nativeName: string } | null {
+    return this.translationService.getLanguageInfo(langCode);
   }
 
   /**

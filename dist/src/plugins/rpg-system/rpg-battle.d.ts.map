@@ -1,0 +1,1 @@
+{"version":3,"file":"rpg-battle.d.ts","sourceRoot":"","sources":["../../../../src/plugins/rpg-system/rpg-battle.ts"],"names":[],"mappings":"AAKA,OAAO,EAAE,UAAU,EAAE,MAAM,uBAAuB,CAAC;AAInD,qBAAa,eAAgB,SAAQ,UAAU;;IAcvC,OAAO,CAAC,OAAO,EAAE,GAAG,GAAG,OAAO,CAAC,IAAI,CAAC;YA8C5B,iBAAiB;YAKjB,aAAa;CAM5B;AAGD,QAAA,MAAM,OAAO;QAAa,GAAG,uCAAuC,GAAG;;CAWtE,CAAC;AAGF,eAAe,OAAO,CAAC"}

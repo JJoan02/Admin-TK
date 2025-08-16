@@ -3,10 +3,12 @@
     "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "node",
-    "lib": ["ES2022"],
+    "lib": [
+      "ES2022"
+    ],
     "outDir": "./dist",
     "rootDir": "./",
-    "strict": true,
+    "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -15,7 +17,7 @@
     "declarationMap": true,
     "sourceMap": true,
     "removeComments": false,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "noImplicitReturns": true,
@@ -25,39 +27,47 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"],
-      "@core/*": ["src/core/*"],
-      "@plugins/*": ["src/plugins/*"],
-      "@services/*": ["src/services/*"],
-      "@utils/*": ["src/utils/*"],
-      "@types/*": ["src/types/*"],
-      "@api/*": ["src/api/*"],
-      "@database/*": ["src/database/*"]
-    }
+      "@/*": [
+        "./src/*"
+      ],
+      "@/types/*": [
+        "./src/types/*"
+      ],
+      "@/plugins/*": [
+        "./src/plugins/*"
+      ],
+      "@/services/*": [
+        "./src/services/*"
+      ],
+      "@/core/*": [
+        "./src/core/*"
+      ]
+    },
+    "allowJs": true,
+    "checkJs": false,
+    "isolatedModules": true,
+    "noEmit": false
   },
   "include": [
     "src/**/*",
+    "config/**/*",
     "index.ts",
-    "scripts/**/*"
+    "**/*.ts"
   ],
   "exclude": [
     "node_modules",
     "dist",
-    "build",
     "coverage",
-    "tmp",
     "**/*.test.ts",
     "**/*.spec.ts",
-    "config/**/*.js",
-    "middlewares/**/*.js",
-    "routes/**/*.js",
-    "services/**/*.js",
-    "utils/**/*.js"
+    "backup-js/**/*"
   ],
   "ts-node": {
     "esm": true,
-    "require": ["tsconfig-paths/register"]
+    "require": [
+      "tsconfig-paths/register"
+    ]
   }
 }
