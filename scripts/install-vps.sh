@@ -85,11 +85,12 @@ systemctl enable --now ufw
 
 # Instalar Node.js 18
 header "INSTALANDO NODE.JS"
-if ! command -v node &> /dev/null || [ "$(node --version | cut -d'v' -f2 | cut -d'.' -f1)" -lt 18 ]; then
-    log "📥 Instalando Node.js 18..."
+if ! command -v node &> /dev/null || [ "$(node --version | cut -d'v' -f2 | cut -d'.' -f1)" -lt 20 ]; then
+    log "🔄 Actualizando a Node.js 20..."
+    dnf module reset -y nodejs
     dnf module install -y nodejs:20
 else
-    log "✅ Node.js ya está instalado: $(node --version)"
+    log "✅ Node.js 20 o superior ya está instalado: $(node --version)"
 fi
 
 # Verificar instalación de Node.js
