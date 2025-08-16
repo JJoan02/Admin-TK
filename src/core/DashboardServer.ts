@@ -7,7 +7,7 @@ import { Server as SocketIOServer } from 'socket.io';
 import { readFileSync } from 'fs';
 import { createModuleLogger } from '../utils/logger.js';
 import { SubBotManager } from './SubBotManager.js';
-import domainConfig from '../../config/domain.config.js';
+import domainConfig from '../../config/config.js';
 import type { SubBotConfig, BotStatus } from '../types/index.js';
 
 const logger = createModuleLogger('DashboardServer');
