@@ -139,14 +139,27 @@ if [ ! -f "package.json" ]; then
 fi
 
 # Instalar dependencias del proyecto
-header "INSTALANDO DEPENDENCIAS DEL PROYECTO"
-log "📦 Instalando dependencias de Node.js..."
-npm install --omit=dev --ignore-scripts
+header "CONFIGURANDO ARCHIVOS"
+log "⚙️  Renombrando archivo de configuración..."
+# Renombrar solo si config.js no existe y domain.config.js sí existe
+if [ ! -f "config/config.js" ] && [ -f "config/domain.config.js" ]; then
+    mv config/domain.config.js config/config.js
+    log "✅ Archivo de configuración renombrado."
+else
+    log "✅ Archivo de configuración ya existe o no necesita renombrarse."
+fi
+
+header "INSTALANDO DEPENDENCIAS Y COMPILANDO"
+log "📦 Instalando TODAS las dependencias (incl. desarrollo) para la compilación..."
+npm install --ignore-scripts
 
 # Compilar TypeScript
 header "COMPILANDO PROYECTO"
-log "🔨 Compilando TypeScript..."
-npm run build
+log "🔨 Compilando TypeScript con ruta directa..."
+./node_modules/typescript/bin/tsc
+
+log "🧹 Eliminando dependencias de desarrollo..."
+npm prune --omit=dev
 
 # Crear directorios necesarios
 header "CREANDO ESTRUCTURA DE DIRECTORIOS"
