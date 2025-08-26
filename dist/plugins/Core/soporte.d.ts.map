@@ -1,1 +1,0 @@
-{"version":3,"file":"soporte.d.ts","sourceRoot":"","sources":["../../../src/plugins/Core/soporte.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAY7D,cAAM,aAAc,YAAW,aAAa;IACxC,IAAI,EAAE,MAAM,CAAmB;IAC/B,QAAQ,EAAE,QAAQ,EAAE,CAoBlB;CACL;AAED,eAAe,aAAa,CAAC"}

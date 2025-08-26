@@ -1,1 +1,0 @@
-{"version":3,"file":"AdminsCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/AdminsCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAG7D,cAAM,YAAa,YAAW,aAAa;IACvC,IAAI,SAAkB;IACtB,QAAQ,EAAE,QAAQ,EAAE,CAkBlB;CACL;AAED,eAAe,YAAY,CAAC"}

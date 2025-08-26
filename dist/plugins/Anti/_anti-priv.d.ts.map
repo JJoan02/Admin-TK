@@ -1,1 +1,0 @@
-{"version":3,"file":"_anti-priv.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anti/_anti-priv.js"],"names":[],"mappings":";AAuBA;IACI,MAAM,MAAM,CAAoB;IAChC,UAAU,EAAE,CAAM;IAElB,UAAgB,SAAS,qBAAqB;QAAE,IAAI,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAA;KAAE,oBAqChF;CACJ;0BAhEkC,yBAAyB"}

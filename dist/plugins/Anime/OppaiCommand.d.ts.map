@@ -1,1 +1,0 @@
-{"version":3,"file":"OppaiCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anime/OppaiCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAI7D,cAAM,WAAY,YAAW,aAAa;IACxC,IAAI,EAAE,MAAM,CAAiB;IAC7B,QAAQ,EAAE,QAAQ,EAAE,CA4BlB;CACH;AAED,eAAe,WAAW,CAAC"}

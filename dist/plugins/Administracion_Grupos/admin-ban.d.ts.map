@@ -1,1 +1,0 @@
-{"version":3,"file":"admin-ban.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/admin-ban.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAkC7D,cAAM,cAAe,YAAW,aAAa;IACzC,IAAI,EAAE,MAAM,CAAoB;IAChC,QAAQ,EAAE,QAAQ,EAAE,CAyDlB;CACL;AAED,eAAe,cAAc,CAAC"}

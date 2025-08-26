@@ -1,1 +1,0 @@
-{"version":3,"file":"establecer_comando_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/establecer_comando_plugin.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAK7D,cAAM,uBAAwB,YAAW,aAAa;IAClD,IAAI,SAA6B;IACjC,QAAQ,EAAE,QAAQ,EAAE,CA6ClB;CACL;AAED,eAAe,uBAAuB,CAAC"}

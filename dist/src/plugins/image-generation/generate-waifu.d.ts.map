@@ -1,1 +1,0 @@
-{"version":3,"file":"generate-waifu.d.ts","sourceRoot":"","sources":["../../../../src/plugins/image-generation/generate-waifu.ts"],"names":[],"mappings":"AAKA,OAAO,EAAE,UAAU,EAAE,MAAM,uBAAuB,CAAC;AAInD,qBAAa,mBAAoB,SAAQ,UAAU;;IAc3C,OAAO,CAAC,OAAO,EAAE,GAAG,GAAG,OAAO,CAAC,IAAI,CAAC;YA8B5B,aAAa;CAoB5B;AAGD,QAAA,MAAM,OAAO;QAAa,GAAG,uCAAuC,GAAG;;CAWtE,CAAC;AAGF,eAAe,OAAO,CAAC"}

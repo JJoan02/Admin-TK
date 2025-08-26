@@ -1,1 +1,0 @@
-{"version":3,"file":"AnimeImagesCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anime/AnimeImagesCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAI7D,cAAM,iBAAkB,YAAW,aAAa;IAC9C,IAAI,EAAE,MAAM,CAAuB;IACnC,QAAQ,EAAE,QAAQ,EAAE,CA6BlB;CACH;AAED,eAAe,iBAAiB,CAAC"}

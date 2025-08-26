@@ -1,1 +1,0 @@
-{"version":3,"file":"EventStore.d.ts","sourceRoot":"","sources":["../../src/core/EventStore.ts"],"names":[],"mappings":"AASA,qBAAa,WAAW;gBACV,IAAI,KAAA,EAAE,OAAO,KAAA,EAAE,WAAW,OAAO;CAM9C;AAMD,cAAM,UAAU;;gBAIF,SAAS,KAAA,EAAE,MAAM,KAAA;IAUvB,OAAO,CAAC,KAAK,KAAA;IAgCb,SAAS,CAAC,IAAI,OAAO,EAAE,WAAW,OAAO;CA4BhD;AAED,eAAe,UAAU,CAAC"}

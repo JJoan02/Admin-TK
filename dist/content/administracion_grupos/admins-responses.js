@@ -1,2 +1,0 @@
-export const ADMINS_MESSAGE = (message, listAdmin) => `『✦』Admins del grupo:\n\nMensaje ${message}\n\n\n${listAdmin}\n\n『✦』Este comando solo si tienes problemas lo puede usar.`;
-//# sourceMappingURL=admins-responses.js.map

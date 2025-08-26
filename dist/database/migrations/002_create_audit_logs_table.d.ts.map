@@ -1,1 +1,0 @@
-{"version":3,"file":"002_create_audit_logs_table.d.ts","sourceRoot":"","sources":["../../../src/database/migrations/002_create_audit_logs_table.ts"],"names":[],"mappings":";;;;AAAA,wBAmBE"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"WallpaperCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anime/WallpaperCommand.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,MAAM,aAAa,CAAC;AAIvC,MAAM,CAAC,OAAO,OAAO,gBAAiB,YAAW,QAAQ;IACvD,OAAO,WAAiB;IACxB,WAAW,SAA4C;IACjD,OAAO,CAAC,CAAC,EAAE,GAAG,EAAE,EAAE,IAAI,EAAE,IAAI,EAAE,EAAE,GAAG;CAoB1C"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"informacion.d.ts","sourceRoot":"","sources":["../../../src/plugins/Core/informacion.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAgC7D,cAAM,iBAAkB,YAAW,aAAa;IAC5C,IAAI,EAAE,MAAM,CAAuB;IACnC,QAAQ,EAAE,QAAQ,EAAE,CAkClB;CACL;AAED,eAAe,iBAAiB,CAAC"}

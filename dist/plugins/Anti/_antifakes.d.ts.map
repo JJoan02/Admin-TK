@@ -1,1 +1,0 @@
-{"version":3,"file":"_antifakes.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anti/_antifakes.js"],"names":[],"mappings":";AAOA;IACI,MAAM,MAAM,CAAqB;IACjC,UAAU,EAAE,CAAM;IAElB,UAAgB,SAAS,iCAAiC;QAAE,IAAI,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAC;QAAC,UAAU,EAAE,OAAO,CAAA;KAAE,oBAiBjH;CACJ;0BA3BkC,yBAAyB"}

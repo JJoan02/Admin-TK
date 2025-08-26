@@ -1,1 +1,0 @@
-{"version":3,"file":"rpg-plugin.js","sourceRoot":"","sources":["../../../src/plugins/RPG/rpg-plugin.js"],"names":[],"mappings":"AAEA,OAAO,cAAc,MAAM,mCAAmC,CAAC;AAE/D,MAAM,SAAS;IACb;QACE,IAAI,CAAC,IAAI,GAAG,KAAK,CAAC;QAClB,IAAI,CAAC,WAAW,GAAG,+BAA+B,CAAC;QACnD,IAAI,CAAC,QAAQ,GAAG,CAAC,IAAI,cAAc,EAAE,CAAC,CAAC;IACzC,CAAC;CACF;AAED,eAAe,SAAS,CAAC"}

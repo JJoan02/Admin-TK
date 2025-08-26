@@ -1,1 +1,0 @@
-{"version":3,"file":"serbot.d.ts","sourceRoot":"","sources":["../../../src/plugins/TKJadibot/serbot.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,OAAO,EAAE,MAAM,oBAAoB,CAAC;AAc7C,cAAM,qBAAsB,SAAQ,OAAO;gBAC7B,SAAS,KAAA;IAKf,OAAO,CAAC,OAAO,KAAA;CA4BtB;AAqCD,MAAM,CAAC,OAAO,OAAO,YAAY;IAC/B,IAAI,SAAY;IAChB,QAAQ;;;;;QAmBN;gBAEU,MAAM,KAAA,EAAE,MAAM,KAAA,EAAE,SAAS,KAAA;CAKtC"}

@@ -1,9 +1,0 @@
-export declare const RENTAR2_NO_LINK = "> _\uD83D\uDCDD Ingresa el link del grupo para rentar el bot._";
-export declare const RENTAR2_INVALID_LINK = "\uD83D\uDEA9 Enlace inv\u00E1lido.";
-export declare const RENTAR2_NO_TOKENS = "\u274E No tienes tokens disponibles para rentar el bot. Compra m\u00E1s tokens con /rentar.";
-export declare const RENTAR2_ALREADY_IN_GROUP = "\u2757 El bot ya est\u00E1 en este grupo.";
-export declare const RENTAR2_JOIN_ERROR: (errorMessage: string) => string;
-export declare const RENTAR2_SUCCESS: (groupId: string, tokenCount: number) => string;
-export declare const RENTAR2_WELCOME_MESSAGE = "> \u00A1Ya llegu\u00E9! El bot estar\u00E1 disponible por el tiempo acordado.";
-export declare const RENTAR2_ERROR = "Ocurri\u00F3 un error al procesar el comando de renta del bot.";
-//# sourceMappingURL=rentar_bot_grupo-responses.d.ts.map

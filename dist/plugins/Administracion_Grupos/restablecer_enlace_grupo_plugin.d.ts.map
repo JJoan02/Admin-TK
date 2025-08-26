@@ -1,1 +1,0 @@
-{"version":3,"file":"restablecer_enlace_grupo_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/restablecer_enlace_grupo_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAM7D,cAAM,4BAA6B,YAAW,aAAa;IACvD,IAAI,EAAE,MAAM,CAAkC;IAC9C,QAAQ,EAAE,QAAQ,EAAE,CA2BlB;CACL;AAED,eAAe,4BAA4B,CAAC"}

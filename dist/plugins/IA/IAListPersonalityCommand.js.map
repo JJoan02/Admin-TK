@@ -1,1 +1,0 @@
-{"version":3,"file":"IAListPersonalityCommand.js","sourceRoot":"","sources":["../../../src/plugins/IA/IAListPersonalityCommand.js"],"names":[],"mappings":"AAEA,OAAO,EAAE,OAAO,EAAE,MAAM,uBAAuB,CAAC;AAKhD,MAAM,OAAO,wBAAyB,SAAQ,OAAO;IAInD,YAAY,OAAO;QACjB,KAAK,EAAE,CAAC;QACR,IAAI,CAAC,OAAO,GAAG,OAAO,CAAC;IACzB,CAAC;CACF"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"gestionar_sesiones_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/gestionar_sesiones_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAU7D,cAAM,uBAAwB,YAAW,aAAa;IAClD,IAAI,EAAE,MAAM,CAA6B;IACzC,QAAQ,EAAE,QAAQ,EAAE,CA2ClB;CACL;AAED,eAAe,uBAAuB,CAAC"}

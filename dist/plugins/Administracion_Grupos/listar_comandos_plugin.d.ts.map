@@ -1,1 +1,0 @@
-{"version":3,"file":"listar_comandos_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/listar_comandos_plugin.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAK7D,cAAM,oBAAqB,YAAW,aAAa;IAC/C,IAAI,SAA0B;IAC9B,QAAQ,EAAE,QAAQ,EAAE,CA8BlB;CACL;AAED,eAAe,oBAAoB,CAAC"}

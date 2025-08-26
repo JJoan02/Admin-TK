@@ -1,1 +1,0 @@
-{"version":3,"file":"InstagramStalkCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Busqueda/InstagramStalkCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAS7D,cAAM,oBAAqB,YAAW,aAAa;IACjD,IAAI,EAAE,MAAM,CAA0B;IACtC,QAAQ,EAAE,QAAQ,EAAE,CAyClB;CACH;AAED,eAAe,oBAAoB,CAAC"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"DeleteCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/DeleteCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAO7D,cAAM,YAAa,YAAW,aAAa;IACvC,IAAI,EAAE,MAAM,CAAkB;IAC9B,QAAQ,EAAE,QAAQ,EAAE,CAmClB;CACL;AAED,eAAe,YAAY,CAAC"}

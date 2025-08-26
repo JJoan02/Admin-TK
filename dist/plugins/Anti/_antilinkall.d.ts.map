@@ -1,1 +1,0 @@
-{"version":3,"file":"_antilinkall.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anti/_antilinkall.js"],"names":[],"mappings":";AAQA;IACI,MAAM,MAAM,CAAuB;IACnC,UAAU,EAAE,CAAM;IAElB,UAAgB,SAAS,iCAAiC;QACtD,IAAI,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAC;QAAC,UAAU,EAAE,OAAO,CAAA;KACvD,oBAgCA;CACJ;0BA9CkC,yBAAyB"}

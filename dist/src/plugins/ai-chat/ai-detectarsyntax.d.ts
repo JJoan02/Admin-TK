@@ -1,6 +1,0 @@
-declare var handler: (m: any, { usedPrefix, command }: {
-    usedPrefix: any;
-    command: any;
-}) => Promise<void>;
-export default handler;
-//# sourceMappingURL=ai-detectarsyntax.d.ts.map

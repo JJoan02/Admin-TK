@@ -1,1 +1,0 @@
-{"version":3,"file":"GoogleLyricsCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Busqueda/GoogleLyricsCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAU7D,cAAM,kBAAmB,YAAW,aAAa;IAC/C,IAAI,EAAE,MAAM,CAAwB;IACpC,QAAQ,EAAE,QAAQ,EAAE,CAqClB;CACH;AAED,eAAe,kBAAkB,CAAC"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"rentar_bot_grupo_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/rentar_bot_grupo_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAW7D,cAAM,oBAAqB,YAAW,aAAa;IAC/C,IAAI,EAAE,MAAM,CAA0B;IACtC,QAAQ,EAAE,QAAQ,EAAE,CA6DlB;CACL;AAED,eAAe,oBAAoB,CAAC"}

@@ -1,9 +1,0 @@
-export declare const PELISPLUS_NO_TEXT: (usedPrefix: string, command: string) => string;
-export declare const PELISPLUS_NO_RESULTS = "No se encontraron resultados para su b\u00FAsqueda.";
-export declare const PELISPLUS_HEADER = "`\u4E42  P E L I C U L A S  -  B U S Q U E D A`\n\n";
-export declare const PELISPLUS_ITEM_TITLE = "  \u2729   *T\u00EDtulo* : ";
-export declare const PELISPLUS_ITEM_RATING = "  \u2729   *Rating* : ";
-export declare const PELISPLUS_ITEM_LINK = "  \u2729   *Enlace* : ";
-export declare const PELISPLUS_ITEM_IMAGE = "  \u2729   *Imagen* : ";
-export declare const PELISPLUS_ERROR = "Hubo un error al buscar las pel\u00EDculas. Intente nuevamente m\u00E1s tarde.";
-//# sourceMappingURL=pelisplus-search-responses.d.ts.map

@@ -1,1 +1,0 @@
-{"version":3,"file":"limpiar_archivos_core_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Utilidades/limpiar_archivos_core_plugin.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAO7D,cAAM,yBAA0B,YAAW,aAAa;IACpD,IAAI,EAAE,MAAM,CAA+B;IAC3C,QAAQ,EAAE,QAAQ,EAAE,CAsClB;CACL;AAED,eAAe,yBAAyB,CAAC"}

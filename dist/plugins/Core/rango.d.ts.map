@@ -1,1 +1,0 @@
-{"version":3,"file":"rango.d.ts","sourceRoot":"","sources":["../../../src/plugins/Core/rango.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAS7D,cAAM,WAAY,YAAW,aAAa;IACtC,IAAI,EAAE,MAAM,CAAiB;IAC7B,QAAQ,EAAE,QAAQ,EAAE,CA6DlB;CACL;AAED,eAAe,WAAW,CAAC"}

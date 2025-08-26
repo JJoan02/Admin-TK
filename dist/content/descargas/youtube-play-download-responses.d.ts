@@ -1,9 +1,0 @@
-export declare const YOUTUBE_PLAY_NO_TEXT = "Que est\u00E1 buscando?\nIngrese el nombre de la canci\u00F3n";
-export declare const YOUTUBE_PLAY_AUDIO_CARD_CAPTION: (title: string, duration: string) => string;
-export declare const YOUTUBE_PLAY_VIDEO_CARD_CAPTION: (title: string, duration: string) => string;
-export declare const YOUTUBE_PLAY_AUDIO_DOC_CARD_CAPTION: (title: string, duration: string, usedPrefix: string, url: string) => string;
-export declare const YOUTUBE_PLAY_VIDEO_DOC_CARD_CAPTION: (title: string, duration: string, usedPrefix: string, url: string) => string;
-export declare const YOUTUBE_PLAY_VIDEO_CAPTION: (title: string) => string;
-export declare const YOUTUBE_PLAY_ERROR = "Ocurri\u00F3 un error inesperado";
-export declare const YOUTUBE_PLAY_FILE_TOO_HEAVY = "El archivo es muy pesado";
-//# sourceMappingURL=youtube-play-download-responses.d.ts.map

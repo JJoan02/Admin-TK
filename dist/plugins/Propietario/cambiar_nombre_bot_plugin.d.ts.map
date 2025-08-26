@@ -1,1 +1,0 @@
-{"version":3,"file":"cambiar_nombre_bot_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Propietario/cambiar_nombre_bot_plugin.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAG7D,cAAM,sBAAuB,YAAW,aAAa;IACjD,IAAI,SAA4B;IAChC,QAAQ,EAAE,QAAQ,EAAE,CAsBlB;CACL;AAED,eAAe,sBAAsB,CAAC"}

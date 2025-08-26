@@ -1,1 +1,0 @@
-{"version":3,"file":"ToImageCommand.js","sourceRoot":"","sources":["../../../src/plugins/Herramientas_Convertidores/ToImageCommand.js"],"names":[],"mappings":"AAEA,OAAO,EAAE,OAAO,EAAE,MAAM,uBAAuB,CAAC;AAKhD,MAAM,OAAO,cAAe,SAAQ,OAAO;IAIzC,YAAY,OAAO;QACjB,KAAK,EAAE,CAAC;QACR,IAAI,CAAC,OAAO,GAAG,OAAO,CAAC;IACzB,CAAC;CACF"}

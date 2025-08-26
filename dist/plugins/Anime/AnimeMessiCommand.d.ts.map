@@ -1,1 +1,0 @@
-{"version":3,"file":"AnimeMessiCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anime/AnimeMessiCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAI7D,cAAM,gBAAiB,YAAW,aAAa;IAC7C,IAAI,EAAE,MAAM,CAAsB;IAClC,QAAQ,EAAE,QAAQ,EAAE,CA2BlB;CACH;AAED,eAAe,gBAAgB,CAAC"}

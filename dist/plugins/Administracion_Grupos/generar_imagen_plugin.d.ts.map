@@ -1,1 +1,0 @@
-{"version":3,"file":"generar_imagen_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/generar_imagen_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAS7D,cAAM,mBAAoB,YAAW,aAAa;IAC9C,IAAI,EAAE,MAAM,CAAyB;IACrC,QAAQ,EAAE,QAAQ,EAAE,CAwClB;CACL;AAED,eAAe,mBAAmB,CAAC"}

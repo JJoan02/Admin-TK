@@ -1,1 +1,0 @@
-{"version":3,"file":"tiempo_activo.d.ts","sourceRoot":"","sources":["../../../src/plugins/Core/tiempo_activo.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAS7D,cAAM,kBAAmB,YAAW,aAAa;IAC7C,IAAI,EAAE,MAAM,CAAwB;IACpC,QAAQ,EAAE,QAAQ,EAAE,CA0ClB;CACL;AAED,eAAe,kBAAkB,CAAC"}

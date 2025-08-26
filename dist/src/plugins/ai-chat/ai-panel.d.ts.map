@@ -1,1 +1,0 @@
-{"version":3,"file":"ai-panel.d.ts","sourceRoot":"","sources":["../../../../src/plugins/ai-chat/ai-panel.ts"],"names":[],"mappings":"AAKA,OAAO,EAAE,UAAU,EAAE,MAAM,uBAAuB,CAAC;AAGnD,qBAAa,aAAc,SAAQ,UAAU;;IAarC,OAAO,CAAC,OAAO,EAAE,GAAG,GAAG,OAAO,CAAC,IAAI,CAAC;CAwB3C;AAGD,QAAA,MAAM,OAAO;QAAa,GAAG,uCAAuC,GAAG;;CAWtE,CAAC;AAIF,eAAe,OAAO,CAAC"}

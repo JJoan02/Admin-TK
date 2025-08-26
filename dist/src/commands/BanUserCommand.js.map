@@ -1,1 +1,0 @@
-{"version":3,"file":"BanUserCommand.js","sourceRoot":"","sources":["../../../src/commands/BanUserCommand.ts"],"names":[],"mappings":"AAAA,iCAAiC;AAEjC,OAAO,EAAE,OAAO,EAAE,MAAM,uBAAuB,CAAC;AAEhD,MAAM,OAAO,cAAe,SAAQ,OAAO;IACzC,YAAY,MAAM,EAAE,MAAM,GAAG,iBAAiB;QAC5C,KAAK,EAAE,CAAC;QACR,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;QACrB,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;IACvB,CAAC;CACF"}

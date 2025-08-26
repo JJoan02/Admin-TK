@@ -1,0 +1,134 @@
+/* TK-HOST Premium Design System */
+:root {
+  /* Colores Primarios */
+  --tk-cyan-50: #e0f7fa;
+  --tk-cyan-100: #b2ebf2;
+  --tk-cyan-200: #80deea;
+  --tk-cyan-300: #4dd0e1;
+  --tk-cyan-400: #26c6da;
+  --tk-cyan-500: #00bcd4;
+  --tk-cyan-600: #00acc1;
+  --tk-cyan-700: #0097a7;
+  --tk-cyan-800: #00838f;
+  --tk-cyan-900: #006064;
+
+  /* Colores Neutros */
+  --tk-gray-50: #fafafa;
+  --tk-gray-100: #f5f5f5;
+  --tk-gray-200: #eeeeee;
+  --tk-gray-300: #e0e0e0;
+  --tk-gray-400: #bdbdbd;
+  --tk-gray-500: #9e9e9e;
+  --tk-gray-600: #757575;
+  --tk-gray-700: #616161;
+  --tk-gray-800: #424242;
+  --tk-gray-900: #212121;
+
+  /* Backgrounds */
+  --tk-bg-primary: #0a0a0a;
+  --tk-bg-secondary: #1a1a1a;
+  --tk-bg-tertiary: #2a2a2a;
+  --tk-bg-card: #1e1e1e;
+  --tk-bg-hover: #333333;
+
+  /* Textos */
+  --tk-text-primary: #ffffff;
+  --tk-text-secondary: #b3b3b3;
+  --tk-text-muted: #666666;
+  --tk-text-cyan: #00bcd4;
+
+  /* Sombras */
+  --tk-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --tk-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --tk-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --tk-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  --tk-shadow-cyan: 0 0 20px rgba(0, 188, 212, 0.3);
+
+  /* Bordes */
+  --tk-border-radius-sm: 4px;
+  --tk-border-radius-md: 8px;
+  --tk-border-radius-lg: 12px;
+  --tk-border-radius-xl: 16px;
+
+  /* Transiciones */
+  --tk-transition-fast: 0.15s ease;
+  --tk-transition-normal: 0.3s ease;
+  --tk-transition-slow: 0.5s ease;
+
+  /* Espaciados */
+  --tk-spacing-xs: 4px;
+  --tk-spacing-sm: 8px;
+  --tk-spacing-md: 16px;
+  --tk-spacing-lg: 24px;
+  --tk-spacing-xl: 32px;
+  --tk-spacing-2xl: 48px;
+}
+
+/* Reset y estilos base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background: linear-gradient(135deg, var(--tk-bg-primary) 0%, var(--tk-bg-secondary) 100%);
+  color: var(--tk-text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(0, 188, 212, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(0, 188, 212, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 188, 212, 0); }
+}
+
+/* Utilidades */
+.tk-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--tk-spacing-md);
+}
+
+.tk-section {
+  padding: var(--tk-spacing-2xl) 0;
+}
+
+.tk-glow {
+  box-shadow: var(--tk-shadow-cyan);
+}
+
+.tk-glow:hover {
+  box-shadow: 0 0 30px rgba(0, 188, 212, 0.5);
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--tk-bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--tk-cyan-500);
+  border-radius: var(--tk-border-radius-sm);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--tk-cyan-400);
+}

@@ -1,1 +1,0 @@
-{"version":3,"file":"DemoteCommand.js","sourceRoot":"","sources":["../../../src/commands/DemoteCommand.ts"],"names":[],"mappings":"AAAA,gCAAgC;AAEhC,OAAO,EAAE,OAAO,EAAE,MAAM,uBAAuB,CAAC;AAEhD;;GAEG;AACH,MAAM,OAAO,aAAc,SAAQ,OAAO;IACxC;;OAEG;IACH,YAAY,OAAO;QACjB,KAAK,EAAE,CAAC;QACR,IAAI,CAAC,OAAO,GAAG,OAAO,CAAC;IACzB,CAAC;CACF"}

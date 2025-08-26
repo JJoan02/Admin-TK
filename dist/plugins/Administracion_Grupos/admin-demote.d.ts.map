@@ -1,1 +1,0 @@
-{"version":3,"file":"admin-demote.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/admin-demote.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAK7D,cAAM,iBAAkB,YAAW,aAAa;IAC5C,IAAI,EAAE,MAAM,CAAuB;IACnC,QAAQ,EAAE,QAAQ,EAAE,CAwDlB;CACL;AAED,eAAe,iBAAiB,CAAC"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"establecer_descripcion_grupo_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/establecer_descripcion_grupo_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAK7D,cAAM,gCAAiC,YAAW,aAAa;IAC3D,IAAI,EAAE,MAAM,CAAsC;IAClD,QAAQ,EAAE,QAAQ,EAAE,CAgClB;CACL;AAED,eAAe,gCAAgC,CAAC"}

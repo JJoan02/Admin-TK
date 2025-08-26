@@ -1,1 +1,0 @@
-{"version":3,"file":"banear_chat_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/banear_chat_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAU7D,cAAM,gBAAiB,YAAW,aAAa;IAC3C,IAAI,EAAE,MAAM,CAAsB;IAClC,QAAQ,EAAE,QAAQ,EAAE,CA0BlB;CACL;AAED,eAAe,gBAAgB,CAAC"}

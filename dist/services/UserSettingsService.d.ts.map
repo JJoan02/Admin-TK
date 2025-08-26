@@ -1,1 +1,0 @@
-{"version":3,"file":"UserSettingsService.d.ts","sourceRoot":"","sources":["../../src/services/UserSettingsService.ts"],"names":[],"mappings":"AAQA,cAAM,mBAAmB;WACV,cAAc,CAAC,MAAM,KAAA,EAAE,WAAW,KAAA;WAWlC,cAAc,CAAC,MAAM,KAAA,EAAE,WAAW,KAAA,EAAE,KAAK,KAAA;WAezC,kBAAkB,CAAC,MAAM,KAAA,EAAE,OAAO,KAAA;WAkBlC,uBAAuB,CAAC,MAAM,KAAA,EAAE,IAAI,OAAO;CAczD;AAED,eAAe,mBAAmB,CAAC"}

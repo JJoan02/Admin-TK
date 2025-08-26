@@ -1,1 +1,0 @@
-{"version":3,"file":"promover_miembro_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/promover_miembro_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAQ7D,cAAM,qBAAsB,YAAW,aAAa;IAChD,IAAI,EAAE,MAAM,CAA2B;IACvC,QAAQ,EAAE,QAAQ,EAAE,CAyDlB;CACL;AAED,eAAe,qBAAqB,CAAC"}

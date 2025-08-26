@@ -1,1 +1,0 @@
-{"version":3,"file":"isOwner.js","sourceRoot":"","sources":["../../../src/plugins/Utilidades/isOwner.js"],"names":[],"mappings":";AAAA,MAAM,QAAQ,GAAG,OAAO,CAAC,aAAa,CAAC,CAAC;AAExC,SAAS,OAAO,CAAC,QAAQ;IAErB,MAAM,QAAQ,GAAG,QAAQ,CAAC,WAAW,GAAG,iBAAiB,CAAC;IAC1D,OAAO,QAAQ,KAAK,QAAQ,CAAC;AACjC,CAAC;AAED,MAAM,CAAC,OAAO,GAAG,OAAO,CAAC"}

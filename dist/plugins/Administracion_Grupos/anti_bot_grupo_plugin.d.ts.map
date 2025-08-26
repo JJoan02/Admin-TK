@@ -1,1 +1,0 @@
-{"version":3,"file":"anti_bot_grupo_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/anti_bot_grupo_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAS7D,cAAM,kBAAmB,YAAW,aAAa;IAC7C,IAAI,EAAE,MAAM,CAAwB;IACpC,QAAQ,EAAE,QAAQ,EAAE,CAkClB;CACL;AAED,eAAe,kBAAkB,CAAC"}

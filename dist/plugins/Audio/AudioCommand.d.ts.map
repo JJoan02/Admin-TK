@@ -1,1 +1,0 @@
-{"version":3,"file":"AudioCommand.d.ts","sourceRoot":"","sources":["../../../src/plugins/Audio/AudioCommand.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAU7D,cAAM,WAAY,YAAW,aAAa;IACxC,IAAI,EAAE,MAAM,CAAiB;IAC7B,QAAQ,EAAE,QAAQ,EAAE,CAyKlB;CACH;AAED,eAAe,WAAW,CAAC"}

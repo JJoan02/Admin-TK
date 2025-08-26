@@ -1,1 +1,0 @@
-{"version":3,"file":"codigo_fuente.d.ts","sourceRoot":"","sources":["../../../src/plugins/Core/codigo_fuente.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAW7D,cAAM,kBAAmB,YAAW,aAAa;IAC7C,IAAI,EAAE,MAAM,CAAwB;IACpC,QAAQ,EAAE,QAAQ,EAAE,CA2BlB;CACL;AAED,eAAe,kBAAkB,CAAC"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"CommandBus.d.ts","sourceRoot":"","sources":["../../../src/core/CommandBus.ts"],"names":[],"mappings":"AAMA;;;GAGG;AACH,qBAAoB,OAAO;;CAI1B;AAED;;;GAGG;AACH,qBAAa,UAAU;;gBAMT,MAAM,KAAA,EAAE,YAAY,KAAA,EAAE,SAAS,KAAA;IAO3C;;;;OAIG;IACH,QAAQ,CAAC,YAAY,KAAA,EAAE,YAAY,KAAA;IASnC;;;;;OAKG;IACG,QAAQ,CAAC,OAAO,KAAA;CAiCvB;AAED,eAAe,UAAU,CAAC"}

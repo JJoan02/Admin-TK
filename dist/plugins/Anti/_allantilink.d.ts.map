@@ -1,1 +1,0 @@
-{"version":3,"file":"_allantilink.d.ts","sourceRoot":"","sources":["../../../src/plugins/Anti/_allantilink.js"],"names":[],"mappings":";AAoBA;IACI,MAAM,MAAM,CAAuB;IACnC,UAAU,EAAE,CAAM;IAElB,UAAgB,SAAS,oDAAoD;QACzE,IAAI,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAC;QAAC,UAAU,EAAE,OAAO,CAAC;QAAC,OAAO,EAAE,OAAO,CAAC;QAAC,QAAQ,EAAE,OAAO,CAAA;KAC5F,oBAqCA;CACJ;0BA/DkC,yBAAyB"}

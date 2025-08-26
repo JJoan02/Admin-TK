@@ -1,1 +1,0 @@
-{"version":3,"file":"listar_numeros_grupo_plugin.d.ts","sourceRoot":"","sources":["../../../src/plugins/Administracion_Grupos/listar_numeros_grupo_plugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAS7D,cAAM,wBAAyB,YAAW,aAAa;IACnD,IAAI,EAAE,MAAM,CAA8B;IAC1C,QAAQ,EAAE,QAAQ,EAAE,CA6FlB;CACL;AAED,eAAe,wBAAwB,CAAC"}
