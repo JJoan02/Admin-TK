@@ -5,8 +5,12 @@
 <h1 align="center">📦 Itsuki Nakano AI <small></h1>
 
 <p align="center">
-  <a href="https://github.com/leodevxyz/Itsuki-NakanoV5"><img src="https://img.shields.io/github/stars/leodevxyz/Itsuki-NakanoV5?style=social" alt="GitHub stars"/></a>
-  <a href="#-descarga-y-estrella"><img src="https://img.shields.io/badge/⭐-Si_te_gusta%2C_dale_Star-orange" alt="Dale una estrella"/></a>
+  <a href="https://github.com/leoxito/Itsuki-NakanoV5">
+    <img src="https://img.shields.io/github/stars/leoxito/Itsuki-NakanoV5?style=social" alt="GitHub stars"/>
+  </a>
+  <a href="#-te-gusta-este-proyecto-dale-una-estrella">
+    <img src="https://img.shields.io/badge/⭐-Si_te_gusta%2C_dale_Star-orange" alt="Dale una estrella"/>
+  </a>
   <img src="https://img.shields.io/badge/Node.js-v20-green" alt="Node 20"/>
   <img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Docker%20%7C%20Replit-blue" alt="Plataformas"/>
 </p>
