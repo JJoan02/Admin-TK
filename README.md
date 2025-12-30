@@ -10,7 +10,7 @@
 
 ---
 
-> **Nombre del repositorio:** `tu-repo`
+> **Nombre del repositorio:** `Itsuki-NakanoV5`
 > Reemplaza `Tu-Project-Name` y las URLs por los valores reales antes de publicar.
 
 ## 📋 Tabla de contenidos
