@@ -68,8 +68,6 @@ npm start
 
 > Para Windows: instala Node.js desde la web oficial, clona el repo y ejecuta `npm install` + `npm start`.
 
----
-
 ## 🚀 Despliegue 24/7
 
 ### Usando PM2 (recomendado para VPS)
@@ -78,9 +76,9 @@ npm start
 npm i -g pm2
 pm run build # si aplica
 pm start # probar localmente
-pm2 start index.js --name "tu-bot"
+pm2 start index.js --name "Itsuki-Nakano"
 pm2 save
-pm2 logs tu-bot
+pm2 logs Itsuki-Nakano
 ```
 
 Ejemplo de `ecosystem.config.js` para PM2:
@@ -89,7 +87,7 @@ Ejemplo de `ecosystem.config.js` para PM2:
 module.exports = {
   apps: [
     {
-      name: 'tu-bot',
+      name: 'Itsuki-Nakano',
       script: 'index.js',
       instances: 1,
       autorestart: true,
