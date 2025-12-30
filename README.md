@@ -28,7 +28,7 @@
 
 ## 🧾 🔍 Descripción
 
-**Tu-Project-Name** es un bot modular, estable y fácil de desplegar pensado para funcionar en Termux, Replit, servidores Linux/Windows y entornos Docker. Está diseñado para ser extensible (comandos como módulos), con administración de usuarios y un enfoque en la estabilidad y operaciones 24/7.
+**Itsuki Nakano AI** es un bot modular, estable y fácil de desplegar pensado para funcionar en Termux, Replit, servidores Linux/Windows y entornos Docker. Está diseñado para ser extensible (comandos como módulos), con administración de usuarios y un enfoque en la estabilidad y operaciones 24/7.
 
 ## ✨ Características principales
 
@@ -37,18 +37,12 @@
 * Gestión de permisos y niveles de usuario.
 * Integraciones opcionales con APIs externas.
 * Logs rotativos, backups automáticos y actualizaciones seguras.
-* Compatibilidad con PM2 para ejecución continua.
 
 ## ⚙️ Requisitos
 
-* Node.js v16+ (recomendado Node 18 LTS)
+* Node.js v20
 * npm o Yarn
-* ffmpeg, ImageMagick (para multimedia)
-* Git
-
 > En sistemas con recursos limitados (Termux o Replit), preferir builds ligeros y activar solo los módulos necesarios.
-
----
 
 ## 🛠 Instalación rápida (ejemplo Termux)
 
@@ -61,8 +55,8 @@ apt update && apt upgrade -y
 pkg install -y git nodejs ffmpeg imagemagick yarn
 
 # clonar e instalar
-git clone https://github.com/tuusuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/leoxito/Itsuki-NakanoV5.git
+cd Itsuki-Nakano
 # usar yarn o npm
 yarn install
 # crear archivo de configuración desde la plantilla
