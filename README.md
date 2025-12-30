@@ -18,14 +18,10 @@
   <img src="https://img.shields.io/badge/Soporte-Comunidad-blue?style=for-the-badge" alt="Soporte"/>
 </p>
 
----
-
 ## ✨ Descripción
 **NOMBRE-DE-TU-BOT** es un bot para WhatsApp (basado en `baileys`) pensado para ofrecer:  
 automatización, comandos multimedia, moderación y herramientas útiles para grupos y chats privados.  
 Diseñado para ser modular, ligero y fácil de desplegar en Termux, VPS o servicios especializados.
-
----
 
 ## ⚙️ Características principales
 - Multi-dispositivo (WhatsApp multi-device)  
@@ -33,8 +29,6 @@ Diseñado para ser modular, ligero y fácil de desplegar en Termux, VPS o servic
 - Comandos multimedia, utilidades y moderación  
 - Backups automáticos y logs rotativos  
 - Fácil despliegue en Termux / VPS / BoxMine / Hosting Py
-
----
 
 ## 📥 Instalación (rápida — Termux)
 ### Opción A — Instalación automática (script)
