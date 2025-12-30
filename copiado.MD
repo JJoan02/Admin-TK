@@ -1,95 +1,115 @@
-> [!IMPORTANT]
-> **Este proyecto está en constante evolución. Estamos comprometidos en ofrecer a nuestra comunidad un Bot increíble. Te invitamos a instalarlo y para estar al tanto de todas las novedades. [¡Únete a nuestro nuevo canal!](https://whatsapp.com/channel/0029VbApwZ9ISTkEBb6ttS3F)**
-
-<p align="center"> 
-<img src="https://cdn.stellarwa.xyz/files/io6y.jpeg" alt="AlyaBot-MD" style="width: 75%; height: auto; max-width: 100px;">
-
-<p align="center"> 
-<a href="#"><img title="AlyaBot-MD" src="https://img.shields.io/badge/¡Disfruta de un Bot totalmente gratuito, con múltiples funciones y de código abierto! -purple?colorA=%239b33b0&colorB=%231c007b&style=for-the-badge"></a> 
+```markdown
+<p align="center">
+  <img src="https://h.uguu.se/TWZcBwLl.jpg" width="900" alt="Banner del Proyecto" />
 </p>
 
----
+# 📦 Itsuki Nakano AI — ✦ Yυƙι Sυσυ ✦
 
-## 🪾 Descripción 
+<p align="center">
+  <a href="https://github.com/leoxito/Itsuki-NakanoV5"><img src="https://img.shields.io/github/stars/leoxito/Itsuki-NakanoV5?style=social" alt="GitHub stars" /></a>
+  <img src="https://img.shields.io/badge/Node.js-v20%2B-green" alt="Node 20" />
+  <img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Docker%20%7C%20Replit-blue" alt="Plataformas" />
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="MIT License" />
+</p>
 
-Alya Bot es un bot de WhatsApp multifuncional basado en `baileys`. Este bot ofrece una variedad de características para mejorar tu experiencia en WhatsApp.
-
----
-
-## ☃️ Características
-
-- Respuestas automáticas
-- Gestión de grupos
-- Juegos interactivos
-- Integración con APIs externas
+> **Aviso importante:** Este proyecto **no está afiliado** a `WhatsApp` ni a `WhatsApp LLC`. WhatsApp es una marca registrada de `WhatsApp LLC`. Itsuki Nakano AI / Yuki Bot es un desarrollo independiente.
 
 ---
 
-## 🌾 Informaciones Importantes
+## 🔎 Resumen rápido
 
-<details>
-<summary><strong>⛄ Información</strong> — Warning</summary>
-
-**El bot no funciona en Termux bajo ninguna circunstancia.**  
-No ofrecemos soporte, compatibilidad ni soluciones para ese entorno.  
-**Para usar el bot, es obligatorio ejecutarlo en un entorno distinto a Termux**, ya sea un servidor, hosting o cualquier plataforma externa recomendada.
-
-</details>
-
-<details>
-<summary><strong>⛄ Información</strong> — Recomendado</summary>
-
-Evita completamente usar forks, mods o versiones alteradas de Baileys.
-No utilices “baileys mods” ni variantes no oficiales.
-Siempre usa la librería principal y oficial de Baileys.
-
-</details>
-
-<details>
-<summary><strong>⛄ Información</strong> — Oficial</summary>
-
-Si editas el bot, debes mantener los créditos principales y no borrarlos bajo ninguna circunstancia.
-
-</details>
-
-<details>
-<summary><strong>⛄ Información</strong> — Oficial2</summary>
-
-Quiero dejar algo completamente claro: mi base es única, original y desarrollada por mí.  
-Fue creada desde cero por **AzamiJs**, quien posteriormente se retiró del proyecto.  
-Desde entonces, durante todos estos meses, he sido yo quien la ha mejorado, optimizado y evolucionado hasta convertirla en lo que es hoy.
-
-Cualquier otra versión que circule —incluyendo **Diamond** — son copias no autorizadas que no representan mi trabajo real, no cuentan con mi aprobación y no tienen validez oficial dentro de mi proyecto.
-
-Mi estructura, mi lógica y mi diseño pertenecen exclusivamente a mi desarrollo.  
-Ninguna réplica, modificación o derivado externo tiene relación con mi trabajo actual ni con la identidad oficial de mi proyecto.
-
-</details>
+Itsuki Nakano AI (aka *Yuki*) es un bot modular para WhatsApp basado en `baileys`. Diseñado para despliegues rápidos en Termux, Replit, VPS y Docker. Ideal para administradores de comunidades que desean automatización 24/7, módulos activables/desactivables, control de permisos y utilidades multimedia/AI/games.
 
 ---
 
-### Instalación en CloudShell
+## ✨ Características destacadas
 
-<details>
-<summary><strong>🦦 Cloud</strong> — Shell</summary>
+- Arquitectura modular (activar / desactivar módulos).
+- Soporte multiplataforma: Termux, Replit, VPS, Docker.
+- Gestión de permisos: owner, admin, mod, user.
+- Comandos multimedia: stickers, HD, transformación de imágenes.
+- Juegos (RPG, Gacha, economía virtual).
+- Funciones de IA y utilidades (búsquedas, descargas multi-plataforma).
+- Sub-bots (JadiBot) y extensiones.
+- Logs rotativos y backups automáticos.
+- Scripts opcionales para PM2 y Docker.
 
-```bash
-git clone https://github.com/DevZyxlJs/AlyaBot-MD
+---
+
+## 📂 Estructura recomendada del repo
+
 ```
 
-```bash
-cd AlyaBot-MD
-```
+.
+├─ index.js
+├─ package.json
+├─ config/
+│  ├─ config.example.js
+│  └─ modules.json
+├─ modules/
+│  └─ (módulos activables)
+├─ sessions/
+├─ scripts/
+│  └─ backup-db.sh
+├─ .env.example
+└─ README.md
+
+````
+
+---
+
+## ⚙️ Requisitos
+
+- Node.js v20+
+- npm o yarn
+- ffmpeg (para multimedia)
+- imagemagick (opcional, stickers)
+- Conexión a Internet
+- (Opcional) MongoDB u otra base de datos si usas persistencia
+
+> En entornos limitados (Termux, Replit) activa únicamente los módulos necesarios para reducir uso de memoria.
+
+---
+
+## 🚀 Instalación rápida (Termux / VPS)
+
+<details>
+<summary><strong>Instalación en Termux</strong> (pulsa para ver)</summary>
 
 ```bash
-yarn install
-```
+# dar permisos y actualizar
+termux-setup-storage
+apt update && apt upgrade -y
+
+# instalar dependencias
+pkg install -y git nodejs ffmpeg imagemagick yarn
+
+# clonar e instalar
+git clone https://github.com/leoxito/Itsuki-NakanoV5.git
+cd Itsuki-NakanoV5
+yarn install   # o npm install
+
+# crear .env a partir de la plantilla
+cp .env.example .env
+
+# iniciar
+npm start
+````
+
+</details>
+
+<details>
+<summary><strong>Instalación en Debian/Ubuntu / VPS</strong></summary>
 
 ```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y git curl ffmpeg imagemagick build-essential
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install -y nodejs
+git clone https://github.com/leoxito/Itsuki-NakanoV5.git
+cd Itsuki-NakanoV5
 npm install
-```
-
-```bash
+cp .env.example .env
 npm start
 ```
 
@@ -97,57 +117,176 @@ npm start
 
 ---
 
-### Patrocinadores del Proyecto
+## 🛠 Despliegue 24/7
 
-<details>
-<summary><strong>☁️ Stellar</strong> — API</summary>
+### PM2 (recomendado en VPS)
 
-<div align="center">
-  <a href="https://api.stellarwa.xyz">
-    <img src="https://api.stellarwa.xyz/favicon.ico" alt="Logo" height="125px">
-  </a>
-</div>
+```bash
+npm i -g pm2
+pm2 start index.js --name "Itsuki-Nakano"
+pm2 save
+pm2 logs Itsuki-Nakano
+```
 
-### 🐢 Enlaces Principales
-| Servicio | Enlace |
-|------------|-----------|
-| Soporte | [Visitar](https://api.stellarwa.xyz/ticket) |
-| Dashboard | [Abrir](https://api.stellarwa.xyz) |
-| Store | [Abrir](https://api.stellarwa.xyz/store) |
-| Estado de Servicios | [Ver](https://stellarwa.xyz/status) 
+Ejemplo `ecosystem.config.js`:
 
-</details>
+```js
+module.exports = {
+  apps: [{
+    name: 'Itsuki-Nakano',
+    script: 'index.js',
+    instances: 1,
+    autorestart: true,
+    watch: false,
+    max_memory_restart: '300M',
+    env: { NODE_ENV: 'production' }
+  }]
+};
+```
 
-<details>
-<summary><strong>☁️ Cafirexos</strong> — Hosting</summary>
+### Docker
 
-<div align="center">
-  <a href="https://cafirexos.com">
-    <img src="https://cdn.cafirexos.com/logos/logo_cfros_2000x2000.png" alt="Logo" height="125px">
-  </a>
-</div>
+`Dockerfile` sugerido:
 
-### 🐢 Enlaces Principales
-| Servicio | Enlace |
-|------------|-----------|
-| Sitio Web | [Visitar](https://cafirexos.com) |
-| Area de clientes | [Abrir](https://cafirexos.com/clientarea.php) |
-| Panel | [Abrir](https://panel.cafirexos.com) |
-| Estado de Servicios | [Ver](https://estado.cafirexos.com) 
-| Canal de WhatsApp | [Ver](https://links.cafirexos.com/whatsapp/canal) 
-| Soporte | [Ver](https://cafirexos.com/contactenos)
+```dockerfile
+FROM node:20-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --only=production
+COPY . .
+ENV NODE_ENV=production
+CMD ["node", "index.js"]
+```
 
-</details>
+### Replit
+
+* Crea un Repl, conecta el repo a tu cuenta.
+* Añade variables de entorno en *Secrets*.
+* Asegúrate de `package.json` tenga `"start": "node index.js"`.
 
 ---
 
-### 🪶 Colaboradores
-<a href="https://github.com/DevZyxlJs/AlyaBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=DevZyxlJs/AlyaBot-MD" /> 
-</a> 
+## 🔧 Configuración (.env)
 
-### 🌺 Creditos Principales
-[![Carlos](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![GataDios](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li)
+Copia `.env.example` y edita las variables esenciales:
 
-### 🦩 Propietario
-[![ZyxlJs](https://github.com/DevZyxlJs.png?size=120)](https://github.com/DevZyxlJs)
+```env
+NODE_ENV=production
+PORT=3000
+BOT_TOKEN=                 # si aplica
+OWNER_ID=                  # tu número (sin espacios)
+DB_URL=mongodb://user:pass@host:27017/itsuki
+LOG_LEVEL=info
+ENABLE_BACKUPS=true
+```
+
+**IMPORTANTE:** Nunca subas credenciales reales al repositorio público.
+
+---
+
+## 🧩 Módulos
+
+* Cada módulo debe residir en `modules/<nombre>/index.js`.
+* Registrar en `config/modules.json`:
+
+```json
+[
+  { "name": "moderacion", "enabled": true },
+  { "name": "games", "enabled": true },
+  { "name": "ai", "enabled": false }
+]
+```
+
+* Para crear un módulo nuevo: seguir la interfaz interna del proyecto (exportar handler, metadata y permisos).
+
+---
+
+## 🛟 Mantener el bot activo en Termux (con PM2)
+
+```bash
+termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
+```
+
+Comandos PM2 útiles:
+
+```bash
+pm2 logs
+pm2 stop index
+pm2 start index
+pm2 delete index
+```
+
+---
+
+## 🔁 Actualizaciones y respaldo
+
+* Para actualizar (ejemplo automático, usar con precaución):
+
+```bash
+# Ejemplo (no lo ejecutes si no entiendes lo que hace): descarga script de actualización
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/DevAlexJs/SakuraBot-MD/master/termux.sh | bash
+```
+
+* Respaldo de base de datos:
+
+```bash
+bash ./scripts/backup-db.sh
+```
+
+---
+
+## ✅ Comandos importantes (ejemplos)
+
+* `npm start` — iniciar en producción
+* `npm run dev` — modo desarrollo (nodemon)
+* `npm test` — ejecutar tests
+* `npm run backup` — respaldo (si está configurado)
+* `npm run qr` — generar QR (si tu implementación lo soporta)
+
+---
+
+## 👥 Créditos y colaboradores
+
+* **Autor / Maintainer:** LeoDev.xyz — [https://github.com/leoxito](https://github.com/leoxito)
+* **Inspiración / recursos:** The-King-Destroy (YukiBot-MD) — algunos textos de guía e instalación
+* Colaboradores: Maicol, Joan TK y la comunidad.
+
+---
+
+## 📬 Enlaces y contacto
+
+* Web: [https://leoDev.xyz](https://leoDev.xyz)
+* GitHub: [https://github.com/leodevxyz](https://github.com/leodevxyz) / [https://github.com/leoxito](https://github.com/leoxito)
+* Soporte / Contacto: `hola@leodev.xyz` *(reemplaza antes de publicar)*
+
+> Enlaces de ejemplo (usa los oficiales de tu repo si cambian).
+
+---
+
+## 🛡 Reporte de vulnerabilidades
+
+Si encuentras una vulnerabilidad: contacta por email `hola@leodev.xyz` o abre un issue privado en el repositorio. No publiques exploits o credenciales en issues públicos.
+
+---
+
+## 📝 Licencia
+
+Este proyecto se publica bajo **MIT License**. Consulta `LICENSE` para más detalles.
+
+---
+
+## 🧾 Changelog mínimo
+
+* **2025-12-29 — v1.0.0** — README mejorado, modularidad, despliegue y docs.
+* **2025-12-22 — v0.9.2** — Optimización de arranque y backups.
+
+---
+
+<p align="center">
+  <img src="https://files.catbox.moe/om9jai.jpg" alt="Yuki Image" width="420" />
+</p>
+
+> *Este README usa como referencia estilos e instrucciones de instalación presentes en forks y proyectos comunitarios (YukiBot-MD, AlyaBot-MD, etc.). Adapta comandos y rutas según tu repositorio y estructura final.*
+
+```
+```
