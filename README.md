@@ -8,10 +8,7 @@
   <a href="https://github.com/leodevxyz"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=7AF7FF&center=true&vCenter=true&width=435&lines=Proyecto+Oficial;Desarrollo+Activo+2025" alt="Proyecto Oficial"/></a>
 </p>
 
----
-
 > **Nombre del repositorio:** `Itsuki-NakanoV5`
-> Reemplaza `Tu-Project-Name` y las URLs por los valores reales antes de publicar.
 
 ## 📋 Tabla de contenidos
 
