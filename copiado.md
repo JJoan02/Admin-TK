@@ -2,7 +2,7 @@
   <img src="https://h.uguu.se/TWZcBwLl.jpg" width="900" alt="Banner del Proyecto" />
 </p>
 
-# 📦 Itsuki Nakano AI — ✦ Yυƙι Sυσυ ✦
+# 📦 Itsuki Nakano AI
 
 <p align="center">
   <a href="https://github.com/leoxito/Itsuki-NakanoV5"><img src="https://img.shields.io/github/stars/leoxito/Itsuki-NakanoV5?style=social" alt="GitHub stars" /></a>
@@ -11,15 +11,11 @@
   <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="MIT License" />
 </p>
 
-> **Aviso importante:** Este proyecto **no está afiliado** a `WhatsApp` ni a `WhatsApp LLC`. WhatsApp es una marca registrada de `WhatsApp LLC`. Itsuki Nakano AI / Yuki Bot es un desarrollo independiente.
-
----
+> **Aviso importante:** Este proyecto **no está afiliado** a `WhatsApp` ni a `WhatsApp LLC`. WhatsApp es una marca registrada de `WhatsApp LLC`. Itsuki Nakano AI es un desarrollo independiente.
 
 ## 🔎 Resumen rápido
 
 Itsuki Nakano AI (aka *Yuki*) es un bot modular para WhatsApp basado en `baileys`. Diseñado para despliegues rápidos en Termux, Replit, VPS y Docker. Ideal para administradores de comunidades que desean automatización 24/7, módulos activables/desactivables, control de permisos y utilidades multimedia/AI/games.
-
----
 
 ## ✨ Características destacadas
 
@@ -33,30 +29,6 @@ Itsuki Nakano AI (aka *Yuki*) es un bot modular para WhatsApp basado en `baileys
 - Logs rotativos y backups automáticos.
 - Scripts opcionales para PM2 y Docker.
 
----
-
-## 📂 Estructura recomendada del repo
-
-```
-
-.
-├─ index.js
-├─ package.json
-├─ config/
-│  ├─ config.example.js
-│  └─ modules.json
-├─ modules/
-│  └─ (módulos activables)
-├─ sessions/
-├─ scripts/
-│  └─ backup-db.sh
-├─ .env.example
-└─ README.md
-
-````
-
----
-
 ## ⚙️ Requisitos
 
 - Node.js v20+
@@ -67,8 +39,6 @@ Itsuki Nakano AI (aka *Yuki*) es un bot modular para WhatsApp basado en `baileys
 - (Opcional) MongoDB u otra base de datos si usas persistencia
 
 > En entornos limitados (Termux, Replit) activa únicamente los módulos necesarios para reducir uso de memoria.
-
----
 
 ## 🚀 Instalación rápida (Termux / VPS)
 
@@ -113,8 +83,6 @@ npm start
 ```
 
 </details>
-
----
 
 ## 🛠 Despliegue 24/7
 
@@ -163,8 +131,6 @@ CMD ["node", "index.js"]
 * Añade variables de entorno en *Secrets*.
 * Asegúrate de `package.json` tenga `"start": "node index.js"`.
 
----
-
 ## 🔧 Configuración (.env)
 
 Copia `.env.example` y edita las variables esenciales:
@@ -181,8 +147,6 @@ ENABLE_BACKUPS=true
 
 **IMPORTANTE:** Nunca subas credenciales reales al repositorio público.
 
----
-
 ## 🧩 Módulos
 
 * Cada módulo debe residir en `modules/<nombre>/index.js`.
@@ -198,8 +162,6 @@ ENABLE_BACKUPS=true
 
 * Para crear un módulo nuevo: seguir la interfaz interna del proyecto (exportar handler, metadata y permisos).
 
----
-
 ## 🛟 Mantener el bot activo en Termux (con PM2)
 
 ```bash
@@ -214,8 +176,6 @@ pm2 stop index
 pm2 start index
 pm2 delete index
 ```
-
----
 
 ## 🔁 Actualizaciones y respaldo
 
@@ -250,8 +210,6 @@ bash ./scripts/backup-db.sh
 * **Inspiración / recursos:** The-King-Destroy (YukiBot-MD) — algunos textos de guía e instalación
 * Colaboradores: Maicol, Joan TK y la comunidad.
 
----
-
 ## 📬 Enlaces y contacto
 
 * Web: [https://leoDev.xyz](https://leoDev.xyz)
@@ -260,26 +218,18 @@ bash ./scripts/backup-db.sh
 
 > Enlaces de ejemplo (usa los oficiales de tu repo si cambian).
 
----
-
 ## 🛡 Reporte de vulnerabilidades
 
 Si encuentras una vulnerabilidad: contacta por email `hola@leodev.xyz` o abre un issue privado en el repositorio. No publiques exploits o credenciales en issues públicos.
-
----
 
 ## 📝 Licencia
 
 Este proyecto se publica bajo **MIT License**. Consulta `LICENSE` para más detalles.
 
----
-
 ## 🧾 Changelog mínimo
 
 * **2025-12-29 — v1.0.0** — README mejorado, modularidad, despliegue y docs.
 * **2025-12-22 — v0.9.2** — Optimización de arranque y backups.
-
----
 
 <p align="center">
   <img src="https://files.catbox.moe/om9jai.jpg" alt="Yuki Image" width="420" />
