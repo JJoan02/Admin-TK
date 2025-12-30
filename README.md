@@ -138,8 +138,6 @@ DB_URL=mongodb://usuario:pass@host:27017/tu-db
 LOG_LEVEL=info
 ```
 
----
-
 ## 📚 Comandos importantes
 
 * `npm start` — iniciar en modo producción.
@@ -158,17 +156,13 @@ Incluye en `package.json` scripts útiles:
 }
 ```
 
----
-
 ## 📝 Changelog (ejemplo)
 
 * **2025-12-29 — v1.0.0** — Lanzamiento inicial, estructura modular, docs básicas.
 * **2025-12-22 — v0.9.2** — Optimización de arranque, script de backup.
 * **2025-11-10 — v0.9.0** — Logs rotativos, soporte PM2, primeros comandos multimedia.
 
-> Mantén el changelog actualizado con el formato `YYYY-MM-DD — vX.Y.Z`.
-
----
+> Seguimos mejorando para ti.
 
 ## 🤝 Cómo contribuir
 
@@ -178,14 +172,10 @@ Incluye en `package.json` scripts útiles:
 
 **Guía de estilo:** ESLint + Prettier. Añade tests cuando sea posible.
 
----
-
 ## 🔐 Reporte de vulnerabilidades / Seguridad
 
-* Si encuentras una vulnerabilidad, por favor reporta a `hola@leodev.xyz` (o usa el canal privado que el proyecto defina).
+* Si encuentras una vulnerabilidad, por favor reporta a `hola@leodev.xyz` (o usa el canal privado).
 * No publiques exploits ni credenciales en issues públicos.
-
----
 
 ## ⚠️ Troubleshooting (problemas comunes)
 
@@ -193,13 +183,9 @@ Incluye en `package.json` scripts útiles:
 * `Permission denied` en Termux → ejecuta `termux-setup-storage` y verifica permisos.
 * Problemas multimedia → asegúrate de que `ffmpeg` e `imagemagick` estén instalados y accesibles en PATH.
 
----
-
 ## 🧾 Licencia
 
-Este proyecto se publica bajo **MIT License**. Cambia a la licencia que prefieras si aplica.
-
----
+Este proyecto se publica bajo **MIT License**.
 
 ## 👥 Equipo y créditos
 
