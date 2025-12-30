@@ -17,8 +17,6 @@
 
 > **Itsuki Nakano AI** es un bot modular, estable y fácil de desplegar — pensado para Termux, Replit, VPS y Docker. Este README mejorado incluye secciones plegables, atajos visuales y llamados a la acción para convertir el README en algo más atractivo.
 
----
-
 ## 📋 Contenido rápido
 
 * [Descripción](#-descripción)
@@ -32,8 +30,6 @@
 * [Contribuir](#-cómo-contribuir)
 * [Seguridad](#-reporte-de-vulnerabilidades--seguridad)
 * [Contacto](#-contacto)
-
----
 
 ## 🌟 ¿Te gusta este proyecto? ¡Dale una estrella!
 
