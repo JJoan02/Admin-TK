@@ -1,7 +1,7 @@
 # 📦 Tu-Project-Name
 
 <p align="center">
-  <img src="https://telegra.ph/file/placeholder-banner.jpg" width="900" alt="Banner del Proyecto" />
+  <img src="https://h.uguu.se/TWZcBwLl.jpg" width="900" alt="Banner del Proyecto" />
 </p>
 
 <p align="center">
