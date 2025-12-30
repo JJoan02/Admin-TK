@@ -45,9 +45,6 @@
 
 ## 🧾 🔍 Descripción
 
-<details>
-<summary><strong>Mostrar / Ocultar — Descripción completa</strong></summary>
-
 **Itsuki Nakano AI** es un bot modular, ligero y pensado para ser fácil de personalizar y desplegar. Ideal para administradores de comunidades que necesitan automatización 24/7 y un conjunto de comandos que pueden activarse o desactivarse como módulos.
 
 Se diseñó con foco en:
@@ -56,14 +53,10 @@ Se diseñó con foco en:
 * Opciones para integraciones externas (APIs) opcionales.
 * Respaldo y logs automáticos para minimizar tiempos de inactividad.
 
-</details>
-
----
-
 ## ✨ Características principales
 
 <details>
-<summary><strong>Mostrar / Ocultar — Características</strong></summary>
+<summary><strong>pulsa aqui</strong></summary>
 
 * ✅ Arquitectura modular (habilita/deshabilita comandos)
 * ✅ Soporte multiplataforma: Termux, Replit, Windows, Docker
@@ -74,12 +67,10 @@ Se diseñó con foco en:
 
 </details>
 
----
-
 ## ⚙️ Requisitos
 
 <details>
-<summary><strong>Mostrar / Ocultar — Requisitos</strong></summary>
+<summary><strong>pulsa aqui</strong></summary>
 
 * Node.js v20+
 * npm o Yarn
@@ -90,12 +81,10 @@ Se diseñó con foco en:
 
 </details>
 
----
-
 ## 🛠 Instalación rápida (Termux)
 
 <details>
-<summary><strong>Mostrar / Ocultar — Instalación rápida</strong></summary>
+<summary><strong>pulsa aqui</strong></summary>
 
 ```bash
 # permisos y actualizaciones
@@ -119,12 +108,10 @@ npm start
 
 </details>
 
----
-
 ## 🚀 Despliegue 24/7 (PM2 / Docker / Replit)
 
 <details>
-<summary><strong>Mostrar / Ocultar — Despliegue 24/7</strong></summary>
+<summary><strong>pulsa aqui</strong></summary>
 
 ### PM2 (VPS recomendado)
 
@@ -174,12 +161,10 @@ CMD ["node", "index.js"]
 
 </details>
 
----
-
 ## 🔧 Configuración
 
 <details>
-<summary><strong>Mostrar / Ocultar — Configuración</strong></summary>
+<summary><strong>pulsa aqui</strong></summary>
 
 * `config.example.js` — plantilla con variables de entorno
 * **IMPORTANTE:** nunca subas credenciales reales al repo
@@ -197,12 +182,10 @@ LOG_LEVEL=info
 
 </details>
 
----
-
 ## 📚 Comandos importantes
 
 <details>
-<summary><strong>Mostrar / Ocultar — Comandos</strong></summary>
+<summary><strong>pulsa aqui</strong></summary>
 
 * `npm start` — iniciar en modo producción
 * `npm run dev` — modo desarrollo (watch + nodemon)
@@ -222,25 +205,16 @@ LOG_LEVEL=info
 
 </details>
 
----
-
-## 📝 Historial de mejoras (Changelog)
-
-<details>
-<summary><strong>Mostrar / Ocultar — Changelog</strong></summary>
+## 📝 Historial de mejoras
 
 * **2025-12-29 — v1.0.0** — Lanzamiento inicial, estructura modular, docs mejoradas.
 * **2025-12-22 — v0.9.2** — Optimización de arranque, script de backup.
 * **2025-11-10 — v0.9.0** — Logs rotativos, soporte PM2, comandos multimedia.
 
-</details>
-
----
-
 ## 🤝 Cómo contribuir
 
 <details>
-<summary><strong>Mostrar / Ocultar — Contribuir</strong></summary>
+<summary><strong>pulsa aqui</strong></summary>
 
 1. Haz fork del repo
 2. Crea una branch `feature/tu-cambio`
@@ -250,35 +224,25 @@ LOG_LEVEL=info
 
 </details>
 
----
-
 ## 🔐 Reporte de vulnerabilidades / Seguridad
 
 <details>
-<summary><strong>Mostrar / Ocultar — Seguridad</strong></summary>
+<summary><strong>pulsa aqui</strong></summary>
 
 Si encuentras una vulnerabilidad, reporta a `hola@leodev.xyz` o usa el canal privado del proyecto. No publiques exploits ni credenciales en issues públicos.
 
 </details>
 
----
-
-## ⚠️ Troubleshooting (problemas comunes)
+## ⚠️ Problemas Comunes
 
 <details>
-<summary><strong>Mostrar / Ocultar — Troubleshooting</strong></summary>
+<summary><strong>pulsa aqui</strong></summary>
 
 * `ERROR: Cannot find module` → ejecuta `npm install` y revisa `NODE_PATH`.
 * `Permission denied` en Termux → `termux-setup-storage` y verifica permisos.
 * Problemas multimedia → asegurarse de que `ffmpeg` e `imagemagick` estén instalados.
 
 </details>
-
----
-
-## 🧾 Licencia
-
-Este proyecto se publica bajo **MIT License**.
 
 ## 👥 Equipo y créditos
 
@@ -294,3 +258,7 @@ Este proyecto se publica bajo **MIT License**.
 * GitHub: [https://github.com/leodevxyz](https://github.com/leodevxyz)
 * Soporte: [https://github.com/JJoan02](https://github.com/JJoan02)
 * Email: `hola@leodev.xyz` *(reemplaza por el contacto real antes de publicar)*
+
+## 🧾 Licencia
+
+Este proyecto se publica bajo **MIT License**.
