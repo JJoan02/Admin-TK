@@ -1,16 +1,21 @@
-# 📦 Itsuki Nakano AI
-
 <p align="center">
   <img src="https://h.uguu.se/TWZcBwLl.jpg" width="900" alt="Banner del Proyecto" />
 </p>
 
+<h1 align="center">📦 Itsuki Nakano AI — <small>Itsuki-NakanoV5</small></h1>
+
 <p align="center">
-  <a href="https://github.com/leodevxyz"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=7AF7FF&center=true&vCenter=true&width=435&lines=Proyecto+Oficial;Desarrollo+Activo+2025" alt="Proyecto Oficial"/></a>
+  <a href="https://github.com/leodevxyz/Itsuki-NakanoV5"><img src="https://img.shields.io/github/stars/leodevxyz/Itsuki-NakanoV5?style=social" alt="GitHub stars"/></a>
+  <a href="#-descarga-y-estrella"><img src="https://img.shields.io/badge/⭐-Si_te_gusta%2C_dale_Star-orange" alt="Dale una estrella"/></a>
+  <img src="https://img.shields.io/badge/Node.js-v20-green" alt="Node 20"/>
+  <img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Docker%20%7C%20Replit-blue" alt="Plataformas"/>
 </p>
 
-> **Nombre del repositorio:** `Itsuki-NakanoV5`
+> **Itsuki Nakano AI** es un bot modular, estable y fácil de desplegar — pensado para Termux, Replit, VPS y Docker. Este README mejorado incluye secciones plegables, atajos visuales y llamados a la acción para convertir el README en algo más atractivo.
 
-## 📋 Tabla de contenidos
+---
+
+## 📋 Contenido rápido
 
 * [Descripción](#-descripción)
 * [Características](#-características)
@@ -19,32 +24,78 @@
 * [Despliegue 24/7 (PM2 / Docker / Replit)](#-despliegue-247-pm2--docker--replit)
 * [Configuración](#-configuración)
 * [Comandos importantes](#-comandos-importantes)
-* [Estructura del proyecto](#-estructura-del-proyecto)
-* [Changelog](#-changelog)
-* [Contribuir](#-contribuir)
-* [Seguridad](#-seguridad)
-* [Licencia y créditos](#-licencia-y-créditos)
+* [Changelog](#-historial-de-mejoras)
+* [Contribuir](#-cómo-contribuir)
+* [Seguridad](#-reporte-de-vulnerabilidades--seguridad)
 * [Contacto](#-contacto)
+
+---
+
+## 🌟 ¿Te gusta este proyecto? ¡Dale una estrella!
+
+<p align="center">
+  <a href="https://github.com/leodevxyz/Itsuki-NakanoV5/stargazers" target="_blank" rel="noopener noreferrer">
+    <img alt="Give Star" src="https://img.shields.io/badge/⭐-Dale%20una%20estrella%20en%20GitHub-yellow" />
+  </a>
+</p>
+
+> Si este repo te ayudó, pulsa ⭐ en GitHub — eso nos motiva muchísimo y ayuda al proyecto a crecer.
+
+---
 
 ## 🧾 🔍 Descripción
 
-**Itsuki Nakano AI** es un bot modular, estable y fácil de desplegar pensado para funcionar en Termux, Replit, servidores Linux/Windows y entornos Docker. Está diseñado para ser extensible (comandos como módulos), con administración de usuarios y un enfoque en la estabilidad y operaciones 24/7.
+<details>
+<summary><strong>Mostrar / Ocultar — Descripción completa</strong></summary>
+
+**Itsuki Nakano AI** es un bot modular, ligero y pensado para ser fácil de personalizar y desplegar. Ideal para administradores de comunidades que necesitan automatización 24/7 y un conjunto de comandos que pueden activarse o desactivarse como módulos.
+
+Se diseñó con foco en:
+
+* Arranque rápido en Termux y VPS.
+* Opciones para integraciones externas (APIs) opcionales.
+* Respaldo y logs automáticos para minimizar tiempos de inactividad.
+
+</details>
+
+---
 
 ## ✨ Características principales
 
-* Arquitectura modular (habilita/deshabilita comandos).
-* Soporte multiplataforma: Termux, Replit, Windows, Docker.
-* Gestión de permisos y niveles de usuario.
-* Integraciones opcionales con APIs externas.
-* Logs rotativos, backups automáticos y actualizaciones seguras.
+<details>
+<summary><strong>Mostrar / Ocultar — Características</strong></summary>
+
+* ✅ Arquitectura modular (habilita/deshabilita comandos)
+* ✅ Soporte multiplataforma: Termux, Replit, Windows, Docker
+* ✅ Gestión de permisos y niveles de usuario
+* ✅ Integraciones opcionales con APIs externas
+* ✅ Logs rotativos y backups automáticos
+* ✅ Scripts opcionales para PM2 y Docker
+
+</details>
+
+---
 
 ## ⚙️ Requisitos
 
-* Node.js v20
-* npm o Yarn
-> En sistemas con recursos limitados (Termux o Replit), preferir builds ligeros y activar solo los módulos necesarios.
+<details>
+<summary><strong>Mostrar / Ocultar — Requisitos</strong></summary>
 
-## 🛠 Instalación rápida (ejemplo Termux)
+* Node.js v20+
+* npm o Yarn
+* ffmpeg (para multimedia)
+* imagemagick (opcional)
+
+> En entornos con recursos limitados (Termux, Replit) activa solo los módulos necesarios.
+
+</details>
+
+---
+
+## 🛠 Instalación rápida (Termux)
+
+<details>
+<summary><strong>Mostrar / Ocultar — Instalación rápida</strong></summary>
 
 ```bash
 # permisos y actualizaciones
@@ -56,7 +107,7 @@ pkg install -y git nodejs ffmpeg imagemagick yarn
 
 # clonar e instalar
 git clone https://github.com/leoxito/Itsuki-NakanoV5.git
-cd Itsuki-Nakano
+cd Itsuki-NakanoV5
 # usar yarn o npm
 yarn install
 # crear archivo de configuración desde la plantilla
@@ -66,22 +117,27 @@ cp config.example.js .env.example .env
 npm start
 ```
 
-> Para Windows: instala Node.js desde la web oficial, clona el repo y ejecuta `npm install` + `npm start`.
+</details>
 
-## 🚀 Despliegue 24/7
+---
 
-### Usando PM2 (recomendado para VPS)
+## 🚀 Despliegue 24/7 (PM2 / Docker / Replit)
+
+<details>
+<summary><strong>Mostrar / Ocultar — Despliegue 24/7</strong></summary>
+
+### PM2 (VPS recomendado)
 
 ```bash
 npm i -g pm2
-pm run build # si aplica
-pm start # probar localmente
+# probar localmente
+npm start
 pm2 start index.js --name "Itsuki-Nakano"
 pm2 save
 pm2 logs Itsuki-Nakano
 ```
 
-Ejemplo de `ecosystem.config.js` para PM2:
+Ejemplo `ecosystem.config.js` (optimizado):
 
 ```js
 module.exports = {
@@ -93,17 +149,13 @@ module.exports = {
       autorestart: true,
       watch: false,
       max_memory_restart: '250M',
-      env: {
-        NODE_ENV: 'production',
-      },
+      env: { NODE_ENV: 'production' },
     },
   ],
 };
 ```
 
 ### Docker (opcional)
-
-`Dockerfile` mínimo:
 
 ```dockerfile
 FROM node:18-alpine
@@ -116,18 +168,23 @@ CMD ["node", "index.js"]
 
 ### Replit
 
-* Crea un repl, sube el código o conecta con GitHub.
-* Define variables de entorno en Secrets/Environment.
-* Usa un script `start` en package.json.
+* Crea un repl y conecta con GitHub.
+* Define variables de entorno en Secrets.
+* Asegúrate de tener un script `start` en `package.json`.
+
+</details>
 
 ---
 
 ## 🔧 Configuración
 
-* `config.example.js` — plantilla con todas las variables de entorno necesarias (token, credenciales de APIs, paths, opciones de módulos).
-* **IMPORTANTE:** nunca subas tus credenciales reales al repositorio.
+<details>
+<summary><strong>Mostrar / Ocultar — Configuración</strong></summary>
 
-### Ejemplo `.env`
+* `config.example.js` — plantilla con variables de entorno
+* **IMPORTANTE:** nunca subas credenciales reales al repo
+
+Ejemplo `.env`:
 
 ```
 NODE_ENV=production
@@ -138,14 +195,21 @@ DB_URL=mongodb://usuario:pass@host:27017/tu-db
 LOG_LEVEL=info
 ```
 
+</details>
+
+---
+
 ## 📚 Comandos importantes
 
-* `npm start` — iniciar en modo producción.
-* `npm run dev` — iniciar en modo desarrollo (watch + nodemon).
-* `npm test` — ejecutar tests (si los tienes).
-* `npm run backup` — crear respaldo rápido de la base de datos (script opcional).
+<details>
+<summary><strong>Mostrar / Ocultar — Comandos</strong></summary>
 
-Incluye en `package.json` scripts útiles:
+* `npm start` — iniciar en modo producción
+* `npm run dev` — modo desarrollo (watch + nodemon)
+* `npm test` — ejecutar tests
+* `npm run backup` — respaldo rápido de la base de datos (script opcional)
+
+`package.json` recomendado (scripts):
 
 ```json
 "scripts": {
@@ -156,44 +220,80 @@ Incluye en `package.json` scripts útiles:
 }
 ```
 
-## 📝 Changelog (ejemplo)
+</details>
 
-* **2025-12-29 — v1.0.0** — Lanzamiento inicial, estructura modular, docs básicas.
+---
+
+## 📝 Historial de mejoras (Changelog)
+
+<details>
+<summary><strong>Mostrar / Ocultar — Changelog</strong></summary>
+
+* **2025-12-29 — v1.0.0** — Lanzamiento inicial, estructura modular, docs mejoradas.
 * **2025-12-22 — v0.9.2** — Optimización de arranque, script de backup.
-* **2025-11-10 — v0.9.0** — Logs rotativos, soporte PM2, primeros comandos multimedia.
+* **2025-11-10 — v0.9.0** — Logs rotativos, soporte PM2, comandos multimedia.
 
-> Seguimos mejorando para ti.
+</details>
+
+---
 
 ## 🤝 Cómo contribuir
 
-1. Haz fork del repositorio.
-2. Crea una branch `feature/tu-cambio`.
-3. Escribe commits claros y abre un Pull Request describiendo los cambios.
+<details>
+<summary><strong>Mostrar / Ocultar — Contribuir</strong></summary>
+
+1. Haz fork del repo
+2. Crea una branch `feature/tu-cambio`
+3. Escribe commits claros y abre un Pull Request
 
 **Guía de estilo:** ESLint + Prettier. Añade tests cuando sea posible.
 
+</details>
+
+---
+
 ## 🔐 Reporte de vulnerabilidades / Seguridad
 
-* Si encuentras una vulnerabilidad, por favor reporta a `hola@leodev.xyz` (o usa el canal privado).
-* No publiques exploits ni credenciales en issues públicos.
+<details>
+<summary><strong>Mostrar / Ocultar — Seguridad</strong></summary>
+
+Si encuentras una vulnerabilidad, reporta a `hola@leodev.xyz` o usa el canal privado del proyecto. No publiques exploits ni credenciales en issues públicos.
+
+</details>
+
+---
 
 ## ⚠️ Troubleshooting (problemas comunes)
 
+<details>
+<summary><strong>Mostrar / Ocultar — Troubleshooting</strong></summary>
+
 * `ERROR: Cannot find module` → ejecuta `npm install` y revisa `NODE_PATH`.
-* `Permission denied` en Termux → ejecuta `termux-setup-storage` y verifica permisos.
-* Problemas multimedia → asegúrate de que `ffmpeg` e `imagemagick` estén instalados y accesibles en PATH.
+* `Permission denied` en Termux → `termux-setup-storage` y verifica permisos.
+* Problemas multimedia → asegurarse de que `ffmpeg` e `imagemagick` estén instalados.
+
+</details>
+
+---
 
 ## 🧾 Licencia
 
 Este proyecto se publica bajo **MIT License**.
 
+---
+
 ## 👥 Equipo y créditos
+
+<details>
+<summary><strong>Mostrar / Ocultar — Equipo</strong></summary>
 
 | Avatar                                      |         Nombre | Rol                  |
 | ------------------------------------------- | -------------: | :------------------- |
 | ![LeoDev](https://github.com/leodevxyz.png) | **LeoDev.xyz** | Creador Principal    |
 | ![Maicol](https://github.com/maicol.png)    |     **Maicol** | Colaborador (Código) |
 | ![Joan TK](https://github.com/JJoan02.png)  |    **Joan TK** | Soporte & Asesoría   |
+
+</details>
 
 ---
 
@@ -206,4 +306,12 @@ Este proyecto se publica bajo **MIT License**.
 
 ---
 
-> ¿Quieres que adapte este README directamente al contenido real del repo (añadiendo tus scripts, `package.json`, y enlaces reales para Maicol y Joan TK)? Si sí, los incorporo ya mismo en el README.
+## ✨ Ideas extra (opcional)
+
+* Añadir una carpeta `/docs` con una landing HTML (GitHub Pages) para efectos visuales con CSS/JS.
+* Agregar GIFs de demostración (`/assets/demo.gif`) para mostrar comandos en acción.
+* Incluir badge de GitHub Actions para CI y tests.
+
+---
+
+*README mejorado creado automáticamente — si quieres que genere también un `docs/index.html` con animaciones CSS y un preview interactivo, dime y lo creo.*
