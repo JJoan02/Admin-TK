@@ -231,12 +231,3 @@ Este proyecto se publica bajo **MIT License**. Consulta `LICENSE` para más deta
 
 * **2025-12-29 — v1.0.0** — README mejorado, modularidad, despliegue y docs.
 * **2025-12-22 — v0.9.2** — Optimización de arranque y backups.
-
-<p align="center">
-  <img src="https://files.catbox.moe/om9jai.jpg" alt="Yuki Image" width="420" />
-</p>
-
-> *Este README usa como referencia estilos e instrucciones de instalación presentes en forks y proyectos comunitarios (YukiBot-MD, AlyaBot-MD, etc.). Adapta comandos y rutas según tu repositorio y estructura final.*
-
-```
-```
