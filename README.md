@@ -1,173 +1,151 @@
-# 📦 Proyecto
+# 🚀 NOMBRE-DE-TU-BOT
+> **Versión actual:** `v1.0.0` · **Creador:** leoDev.xyz
 
 <p align="center">
-<img src="https://telegra.ph/file/placeholder-banner.jpg" width="900" alt="Banner del Proyecto"/>
+  <a href="https://leoDev.xyz">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFD5&center=true&vCenter=true&width=660&lines=Bot+WhatsApp+Multifuncional;Estable+%7C+Moderno+%7C+Escalable;Creado+por+LeoDev.xyz" alt="Typing SVG"/>
+  </a>
 </p>
 
 <p align="center">
-<a href="https://github.com/leodevxyz"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=7AF7FF&center=true&vCenter=true&width=435&lines=Proyecto+Oficial;Desarrollo+Activo+2025"/></a>
+  <!-- Banner: reemplaza por tu imagen oficial -->
+  <img src="https://telegra.ph/file/6abaae73efb27d7127781.jpg" width="900" alt="Banner del proyecto"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/WhatsApp-MultiDevice-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp MultiDevice"/>
+  <img src="https://img.shields.io/badge/Estado-Activo-green?style=for-the-badge" alt="Estado"/>
+  <img src="https://img.shields.io/badge/Soporte-Comunidad-blue?style=for-the-badge" alt="Soporte"/>
 </p>
 
 ---
 
-## 👤 Equipo
-
-<table align="center">
-<tr>
-<td align="center">
-<img src="https://github.com/leodevxyz.png?size=120"/><br>
-<b>LeoDev.xyz</b><br>
-<sub>Creador Principal</sub>
-</td>
-<td align="center">
-<img src="https://github.com/maicol.png?size=120"/><br>
-<b>Maicol</b><br>
-<sub>Colaborador en Código</sub>
-</td>
-<td align="center">
-<img src="https://github.com/JJoan02.png?size=120"/><br>
-<b>Joan TK</b><br>
-<sub>Soporte & Asesoría</sub>
-</td>
-</tr>
-</table>
-
-<details>
-<summary>🌐 Redes y contacto</summary>
-
-- 🔗 LeoDev: https://leoDev.xyz
-- 🧑‍💻 GitHub Joan TK: https://github.com/JJoan02
-- 📢 Soporte WhatsApp / Comunidad (próximamente)
-
-</details>
+## ✨ Descripción
+**NOMBRE-DE-TU-BOT** es un bot para WhatsApp (basado en `baileys`) pensado para ofrecer:  
+automatización, comandos multimedia, moderación y herramientas útiles para grupos y chats privados.  
+Diseñado para ser modular, ligero y fácil de desplegar en Termux, VPS o servicios especializados.
 
 ---
 
-## 🚀 Sobre el proyecto
-**Nombre del proyecto:** `Tu-Project-Name`
-
-**Creador principal:** [leoDev.xyz](https://leoDev.xyz)  
-**Colaborador (Código):** Maicol  
-**Soporte:** Joan TK
-
-**Objetivo:** Proveer un bot estable, modular y fácil de desplegar en Termux, Replit, servidores y hosting especializados.
+## ⚙️ Características principales
+- Multi-dispositivo (WhatsApp multi-device)  
+- Módulos activables/desactivables  
+- Comandos multimedia, utilidades y moderación  
+- Backups automáticos y logs rotativos  
+- Fácil despliegue en Termux / VPS / BoxMine / Hosting Py
 
 ---
 
-## ✨ Características principales
-- Modular — fácil de habilitar/deshabilitar comandos.
-- Compatibilidad con múltiples entornos: Termux, Replit, Windows, Docker.
-- Gestión de usuarios / niveles y permisos.
-- Integraciones: WhatsApp, API externas (opcional).
-- Sistema de logs, backups automáticos y actualización segura.
-
----
-
-## 🛠 Instalación rápida
-### Requisitos
-- NodeJS (>=16)
-- Yarn o npm
-- FFmpeg, ImageMagick (para procesamiento multimedia)
-
-### Instalación (ejemplo Termux)
+## 📥 Instalación (rápida — Termux)
+### Opción A — Instalación automática (script)
 ```bash
+termux-setup-storage
+apt update -y && apt upgrade -y
+pkg install -y bash wget mpv
+wget -O - https://raw.githubusercontent.com/TU-USUARIO/TU-REPO/master/install.sh | bash
+
+Opción B — Instalación manual (GitHub)
 termux-setup-storage
 apt update && apt upgrade -y
 pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/tuusuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/TU-USUARIO/TU-REPO.git
+cd TU-REPO
 yarn install
+npm install
 npm start
-```
 
-> Para Windows, Replit y hosts profesionales, ver la sección *Despliegue avanzado* más abajo.
+Opción C — Archivos ZIP
 
----
+Descarga el ZIP, descomprime y ejecuta los comandos de la Opción B dentro de la carpeta descomprimida.
 
-## 📦 Despliegue 24/7
-Usa `pm2` para mantener el bot activo:
-```bash
+🔁 Ejecutar 24/7 (PM2)
 npm i -g pm2
 pm2 start index.js --name "tu-bot"
 pm2 save
 pm2 logs tu-bot
-```
 
----
 
-## 🧭 Historial de mejoras (Changelog)
-> Aquí tienes un historial por fecha. Edita o añade entradas según avancen las versiones.
+Comandos útiles:
 
-- **2025-12-29 — v1.0.0**
-  - Lanzamiento inicial del proyecto.
-  - Estructura modular y docs básicas.
-  - Integración de sistema de comandos y manager de permisos.
+pm2 stop tu-bot
+pm2 restart tu-bot
+pm2 delete tu-bot
 
-- **2025-12-22 — v0.9.2 (pre-release)**
-  - Optimización de arranque y reducción de uso de memoria.
-  - Añadido script de backup `backup-db.sh`.
+☁️ Hosting recomendado
+BoxMine World
 
-- **2025-11-10 — v0.9.0**
-  - Implementación de logs rotativos y soporte para PM2.
-  - Primer listado de comandos multimedia.
+Dashboard: https://dash.boxmineworld.com
 
-> **Nota:** Mantén este apartado actualizado con cada release. Usa el formato `YYYY-MM-DD — vX.Y.Z` para uniformidad.
+Panel: https://panel.boxmineworld.com
 
----
+(Ver tutorial y soporte en su canal / Discord)
 
-## 👥 Equipo
-### Creador principal
-**leoDev.xyz**  
-Sitio: https://leoDev.xyz  
-Email: hola@leodev.xyz *(reemplaza por el contacto real)*
+TK Host / Hosting Py (alternativas)
 
-### Colaborador (Código)
-**Maicol**  
-GitHub: `https://github.com/maicol` *(sustituir por el perfil correcto)*
+Dash TK: https://dash.tk-joanhost.com
 
-### Soporte y Operaciones
-<details>
-<summary><strong>Joan TK — Soporte</strong> (haz click para ver enlaces)</summary>
+HostingPy: https://dahs.hostingpy.shop/
 
-![Joan TK - perfil](https://github.com/JJoan02.png)
+🧾 Historial de mejoras (Changelog)
 
-- WhatsApp: https://wa.me/XXXXXXXXXXX  
-- GitHub: https://github.com/JJoan02  
-- Twitter / X: https://x.com/JoanTK  
-- Canal: https://whatsapp.com/channel/0029Va71C1q2UPBOICnxu83r
+2025-12-29 — v1.0.0
+
+Lanzamiento oficial: estructura modular, soporte Multi-Device y docs base.
+
+2025-12-22 — v0.9.2 (pre-release)
+
+Optimización de arranque, script de backup backup-db.sh.
+
+2025-11-10 — v0.9.0
+
+Implementación de logs rotativos y soporte PM2.
+
+Mantén este bloque actualizado con YYYY-MM-DD — vX.Y.Z en cada release.
+
+👥 Equipo
+<table> <tr> <td align="center"> <img src="https://github.com/leodevxyz.png?size=120" width="100" alt="LeoDev"/> <br><b>LeoDev.xyz</b><br><sub>Creador principal</sub> </td> <td align="center"> <img src="https://github.com/maicol.png?size=120" width="100" alt="Maicol"/> <br><b>Maicol</b><br><sub>Colaborador (código)</sub> </td> <td align="center"> <img src="https://github.com/JJoan02.png?size=120" width="100" alt="JoanTK"/> <br><b>Joan TK</b><br><sub>Soporte & operaciones</sub> </td> </tr> </table> <details> <summary>🌐 Contactos y redes</summary>
+
+LeoDev: https://leoDev.xyz
+
+Joan TK: https://github.com/JJoan02
+
+Soporte / Comunidad: Canal de WhatsApp (añadir enlace)
 
 </details>
+⚖️ Términos y legal
+<details> <summary>⚠️ Aviso importante</summary>
 
----
+Este proyecto no está afiliado a WhatsApp, Inc. WhatsApp™ es marca registrada de WhatsApp LLC.
+La venta de este bot o su distribución con fines comerciales está prohibida salvo autorización expresa del autor.
 
-## 🔐 Licencia
-Este proyecto usa la licencia **MIT** (recomendado). Cambia según tus necesidades.
+</details>
+🧩 Archivos importantes
 
----
+config.example.js — configuración inicial
 
-## 🤝 Cómo contribuir
-1. Haz `fork` del repo.
-2. Crea una rama `feature/tu-cambio`.
-3. Haz `commit` con mensajes claros.
-4. Abre un `pull request` describiendo los cambios.
+index.js — punto de entrada
 
-Para reportes y soporte técnico, abre un issue o contacta al equipo de soporte.
+commands/ — módulos de comandos
 
----
+scripts/backup-db.sh — backup automático (recomendado)
 
-## 🧾 Archivos importantes
-- `config.example.js` — Variables de entorno y configuración inicial.
-- `index.js` — Punto de entrada.
-- `commands/` — Módulos de comandos.
-- `docs/` — Documentación extendida.
+🤝 Cómo contribuir
 
----
+Haz fork del repositorio.
 
-## 🎨 Estética y notas de estilo
-- Mantén títulos y secciones limpias y concisas.
-- Usa `details` para secciones largas o listas de enlaces.
-- Evita saturar la cabecera con demasiados badges; prioriza enlaces útiles.
+Crea una rama: feature/tu-cambio.
 
----
+commit con mensajes descriptivos.
 
-> ¿Quieres que lo adapte directamente al contenido del proyecto (añadiendo tus scripts, comandos y los enlaces reales de Maicol y Joan TK)? Puedo incorporarlos ahora mismo.
+Abre un pull request y describe los cambios.
+
+Para bugs, sugerencias o soporte, abre un issue en el repo o contacta al equipo de soporte.
+
+🎉 Agradecimientos & créditos
+
+Basado en ideas y estructuras de JoanBot-TK, Genesis-AI y GataBot-MD.
+Gracias a los colaboradores y a la comunidad por su apoyo.
+
+
+
+
