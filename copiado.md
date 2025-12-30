@@ -86,8 +86,9 @@ npm start
 
 ## 🛠 Despliegue 24/7
 
-### PM2 (recomendado en VPS)
-
+<details>
+<summary><strong>PM2 (recomendado en VPS)</strong></summary>
+  
 ```bash
 npm i -g pm2
 pm2 start index.js --name "Itsuki-Nakano"
@@ -192,8 +193,6 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 bash ./scripts/backup-db.sh
 ```
 
----
-
 ## ✅ Comandos importantes (ejemplos)
 
 * `npm start` — iniciar en producción
@@ -202,7 +201,7 @@ bash ./scripts/backup-db.sh
 * `npm run backup` — respaldo (si está configurado)
 * `npm run qr` — generar QR (si tu implementación lo soporta)
 
----
+</details>
 
 ## 👥 Créditos y colaboradores
 
