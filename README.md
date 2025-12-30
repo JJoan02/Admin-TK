@@ -246,7 +246,7 @@ Si encuentras una vulnerabilidad, reporta a `hola@leodev.xyz` o usa el canal pri
 
 | Avatar                                      |         Nombre | Rol                  |
 | ------------------------------------------- | -------------: | :------------------- |
-| ![LeoDev](https://github.com/leodevxyz.png) | **LeoDev.xyz** | Creador Principal    |
+| ![LeoDev](https://github.com/leoxito.png) | **LeoDev.xyz** | Creador Principal    |
 | ![Maicol](https://github.com/maicol.png)    |     **Maicol** | Colaborador (Código) |
 | ![Joan TK](https://github.com/JJoan02.png)  |    **Joan TK** | Soporte & Asesoría   |
 
