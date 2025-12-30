@@ -2,7 +2,7 @@
   <img src="https://h.uguu.se/TWZcBwLl.jpg" width="900" alt="Banner del Proyecto" />
 </p>
 
-<h1 align="center">📦 Itsuki Nakano AI — <small>Itsuki-NakanoV5</small></h1>
+<h1 align="center">📦 Itsuki Nakano AI <small></h1>
 
 <p align="center">
   <a href="https://github.com/leodevxyz/Itsuki-NakanoV5"><img src="https://img.shields.io/github/stars/leodevxyz/Itsuki-NakanoV5?style=social" alt="GitHub stars"/></a>
