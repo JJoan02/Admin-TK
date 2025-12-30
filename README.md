@@ -160,25 +160,6 @@ Incluye en `package.json` scripts útiles:
 
 ---
 
-## 📁 Estructura recomendada
-
-```
-/ (root)
-├─ index.js
-├─ package.json
-├─ config.example.js
-├─ commands/
-│  ├─ general.js
-│  └─ admin.js
-├─ libs/
-├─ utils/
-├─ docs/
-└─ scripts/
-   └─ backup-db.sh
-```
-
----
-
 ## 📝 Changelog (ejemplo)
 
 * **2025-12-29 — v1.0.0** — Lanzamiento inicial, estructura modular, docs básicas.
