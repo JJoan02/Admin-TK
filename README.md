@@ -1,145 +1,259 @@
-# 🚀 NOMBRE-DE-TU-BOT
-> **Versión actual:** `v1.0.0` · **Creador:** leoDev.xyz
+# 📦 Tu-Project-Name
 
 <p align="center">
-  <a href="https://leoDev.xyz">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFD5&center=true&vCenter=true&width=660&lines=Bot+WhatsApp+Multifuncional;Estable+%7C+Moderno+%7C+Escalable;Creado+por+LeoDev.xyz" alt="Typing SVG"/>
-  </a>
+  <img src="https://telegra.ph/file/placeholder-banner.jpg" width="900" alt="Banner del Proyecto" />
 </p>
 
 <p align="center">
-  <!-- Banner: reemplaza por tu imagen oficial -->
-  <img src="https://telegra.ph/file/6abaae73efb27d7127781.jpg" width="900" alt="Banner del proyecto"/>
+  <a href="https://github.com/leodevxyz"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=7AF7FF&center=true&vCenter=true&width=435&lines=Proyecto+Oficial;Desarrollo+Activo+2025" alt="Proyecto Oficial"/></a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/WhatsApp-MultiDevice-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp MultiDevice"/>
-  <img src="https://img.shields.io/badge/Estado-Activo-green?style=for-the-badge" alt="Estado"/>
-  <img src="https://img.shields.io/badge/Soporte-Comunidad-blue?style=for-the-badge" alt="Soporte"/>
-</p>
+---
 
-## ✨ Descripción
-**NOMBRE-DE-TU-BOT** es un bot para WhatsApp (basado en `baileys`) pensado para ofrecer:  
-automatización, comandos multimedia, moderación y herramientas útiles para grupos y chats privados.  
-Diseñado para ser modular, ligero y fácil de desplegar en Termux, VPS o servicios especializados.
+> **Nombre del repositorio:** `tu-repo`
+> Reemplaza `Tu-Project-Name` y las URLs por los valores reales antes de publicar.
 
-## ⚙️ Características principales
-- Multi-dispositivo (WhatsApp multi-device)  
-- Módulos activables/desactivables  
-- Comandos multimedia, utilidades y moderación  
-- Backups automáticos y logs rotativos  
-- Fácil despliegue en Termux / VPS / BoxMine / Hosting Py
+## 📋 Tabla de contenidos
 
-## 📥 Instalación (rápida — Termux)
-### Opción A — Instalación automática (script)
+* [Descripción](#-descripción)
+* [Características](#-características)
+* [Requisitos](#-requisitos)
+* [Instalación rápida (Termux)](#-instalación-rápida-termux)
+* [Despliegue 24/7 (PM2 / Docker / Replit)](#-despliegue-247-pm2--docker--replit)
+* [Configuración](#-configuración)
+* [Comandos importantes](#-comandos-importantes)
+* [Estructura del proyecto](#-estructura-del-proyecto)
+* [Changelog](#-changelog)
+* [Contribuir](#-contribuir)
+* [Seguridad](#-seguridad)
+* [Licencia y créditos](#-licencia-y-créditos)
+* [Contacto](#-contacto)
+
+---
+
+## 🧾 🔍 Descripción
+
+**Tu-Project-Name** es un bot modular, estable y fácil de desplegar pensado para funcionar en Termux, Replit, servidores Linux/Windows y entornos Docker. Está diseñado para ser extensible (comandos como módulos), con administración de usuarios y un enfoque en la estabilidad y operaciones 24/7.
+
+---
+
+## ✨ Características principales
+
+* Arquitectura modular (habilita/deshabilita comandos).
+* Soporte multiplataforma: Termux, Replit, Windows, Docker.
+* Gestión de permisos y niveles de usuario.
+* Integraciones opcionales con APIs externas.
+* Logs rotativos, backups automáticos y actualizaciones seguras.
+* Compatibilidad con PM2 para ejecución continua.
+
+---
+
+## ⚙️ Requisitos
+
+* Node.js v16+ (recomendado Node 18 LTS)
+* npm o Yarn
+* ffmpeg, ImageMagick (para multimedia)
+* Git
+
+> En sistemas con recursos limitados (Termux o Replit), preferir builds ligeros y activar solo los módulos necesarios.
+
+---
+
+## 🛠 Instalación rápida (ejemplo Termux)
+
 ```bash
-termux-setup-storage
-apt update -y && apt upgrade -y
-pkg install -y bash wget mpv
-wget -O - https://raw.githubusercontent.com/TU-USUARIO/TU-REPO/master/install.sh | bash
-
-Opción B — Instalación manual (GitHub)
+# permisos y actualizaciones
 termux-setup-storage
 apt update && apt upgrade -y
+
+# dependencias básicas
 pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/TU-USUARIO/TU-REPO.git
-cd TU-REPO
+
+# clonar e instalar
+git clone https://github.com/tuusuario/tu-repo.git
+cd tu-repo
+# usar yarn o npm
 yarn install
-npm install
+# crear archivo de configuración desde la plantilla
+cp config.example.js .env.example .env
+
+# iniciar
 npm start
+```
 
-Opción C — Archivos ZIP
+> Para Windows: instala Node.js desde la web oficial, clona el repo y ejecuta `npm install` + `npm start`.
 
-Descarga el ZIP, descomprime y ejecuta los comandos de la Opción B dentro de la carpeta descomprimida.
+---
 
-🔁 Ejecutar 24/7 (PM2)
+## 🚀 Despliegue 24/7
+
+### Usando PM2 (recomendado para VPS)
+
+```bash
 npm i -g pm2
+pm run build # si aplica
+pm start # probar localmente
 pm2 start index.js --name "tu-bot"
 pm2 save
 pm2 logs tu-bot
+```
 
+Ejemplo de `ecosystem.config.js` para PM2:
 
-Comandos útiles:
+```js
+module.exports = {
+  apps: [
+    {
+      name: 'tu-bot',
+      script: 'index.js',
+      instances: 1,
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '250M',
+      env: {
+        NODE_ENV: 'production',
+      },
+    },
+  ],
+};
+```
 
-pm2 stop tu-bot
-pm2 restart tu-bot
-pm2 delete tu-bot
+### Docker (opcional)
 
-☁️ Hosting recomendado
-BoxMine World
+`Dockerfile` mínimo:
 
-Dashboard: https://dash.boxmineworld.com
+```dockerfile
+FROM node:18-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --only=production
+COPY . .
+CMD ["node", "index.js"]
+```
 
-Panel: https://panel.boxmineworld.com
+### Replit
 
-(Ver tutorial y soporte en su canal / Discord)
+* Crea un repl, sube el código o conecta con GitHub.
+* Define variables de entorno en Secrets/Environment.
+* Usa un script `start` en package.json.
 
-TK Host / Hosting Py (alternativas)
+---
 
-Dash TK: https://dash.tk-joanhost.com
+## 🔧 Configuración
 
-HostingPy: https://dahs.hostingpy.shop/
+* `config.example.js` — plantilla con todas las variables de entorno necesarias (token, credenciales de APIs, paths, opciones de módulos).
+* **IMPORTANTE:** nunca subas tus credenciales reales al repositorio.
 
-🧾 Historial de mejoras (Changelog)
+### Ejemplo `.env`
 
-2025-12-29 — v1.0.0
+```
+NODE_ENV=production
+PORT=3000
+BOT_TOKEN=tu_token_aqui
+OWNER_ID=1234567890
+DB_URL=mongodb://usuario:pass@host:27017/tu-db
+LOG_LEVEL=info
+```
 
-Lanzamiento oficial: estructura modular, soporte Multi-Device y docs base.
+---
 
-2025-12-22 — v0.9.2 (pre-release)
+## 📚 Comandos importantes
 
-Optimización de arranque, script de backup backup-db.sh.
+* `npm start` — iniciar en modo producción.
+* `npm run dev` — iniciar en modo desarrollo (watch + nodemon).
+* `npm test` — ejecutar tests (si los tienes).
+* `npm run backup` — crear respaldo rápido de la base de datos (script opcional).
 
-2025-11-10 — v0.9.0
+Incluye en `package.json` scripts útiles:
 
-Implementación de logs rotativos y soporte PM2.
+```json
+"scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js",
+  "lint": "eslint .",
+  "backup": "bash ./scripts/backup-db.sh"
+}
+```
 
-Mantén este bloque actualizado con YYYY-MM-DD — vX.Y.Z en cada release.
+---
 
-👥 Equipo
-<table> <tr> <td align="center"> <img src="https://github.com/leodevxyz.png?size=120" width="100" alt="LeoDev"/> <br><b>LeoDev.xyz</b><br><sub>Creador principal</sub> </td> <td align="center"> <img src="https://github.com/maicol.png?size=120" width="100" alt="Maicol"/> <br><b>Maicol</b><br><sub>Colaborador (código)</sub> </td> <td align="center"> <img src="https://github.com/JJoan02.png?size=120" width="100" alt="JoanTK"/> <br><b>Joan TK</b><br><sub>Soporte & operaciones</sub> </td> </tr> </table> <details> <summary>🌐 Contactos y redes</summary>
+## 📁 Estructura recomendada
 
-LeoDev: https://leoDev.xyz
+```
+/ (root)
+├─ index.js
+├─ package.json
+├─ config.example.js
+├─ commands/
+│  ├─ general.js
+│  └─ admin.js
+├─ libs/
+├─ utils/
+├─ docs/
+└─ scripts/
+   └─ backup-db.sh
+```
 
-Joan TK: https://github.com/JJoan02
+---
 
-Soporte / Comunidad: Canal de WhatsApp (añadir enlace)
+## 📝 Changelog (ejemplo)
 
-</details>
-⚖️ Términos y legal
-<details> <summary>⚠️ Aviso importante</summary>
+* **2025-12-29 — v1.0.0** — Lanzamiento inicial, estructura modular, docs básicas.
+* **2025-12-22 — v0.9.2** — Optimización de arranque, script de backup.
+* **2025-11-10 — v0.9.0** — Logs rotativos, soporte PM2, primeros comandos multimedia.
 
-Este proyecto no está afiliado a WhatsApp, Inc. WhatsApp™ es marca registrada de WhatsApp LLC.
-La venta de este bot o su distribución con fines comerciales está prohibida salvo autorización expresa del autor.
+> Mantén el changelog actualizado con el formato `YYYY-MM-DD — vX.Y.Z`.
 
-</details>
-🧩 Archivos importantes
+---
 
-config.example.js — configuración inicial
+## 🤝 Cómo contribuir
 
-index.js — punto de entrada
+1. Haz fork del repositorio.
+2. Crea una branch `feature/tu-cambio`.
+3. Escribe commits claros y abre un Pull Request describiendo los cambios.
 
-commands/ — módulos de comandos
+**Guía de estilo:** ESLint + Prettier. Añade tests cuando sea posible.
 
-scripts/backup-db.sh — backup automático (recomendado)
+---
 
-🤝 Cómo contribuir
+## 🔐 Reporte de vulnerabilidades / Seguridad
 
-Haz fork del repositorio.
+* Si encuentras una vulnerabilidad, por favor reporta a `hola@leodev.xyz` (o usa el canal privado que el proyecto defina).
+* No publiques exploits ni credenciales en issues públicos.
 
-Crea una rama: feature/tu-cambio.
+---
 
-commit con mensajes descriptivos.
+## ⚠️ Troubleshooting (problemas comunes)
 
-Abre un pull request y describe los cambios.
+* `ERROR: Cannot find module` → ejecuta `npm install` y revisa `NODE_PATH`.
+* `Permission denied` en Termux → ejecuta `termux-setup-storage` y verifica permisos.
+* Problemas multimedia → asegúrate de que `ffmpeg` e `imagemagick` estén instalados y accesibles en PATH.
 
-Para bugs, sugerencias o soporte, abre un issue en el repo o contacta al equipo de soporte.
+---
 
-🎉 Agradecimientos & créditos
+## 🧾 Licencia
 
-Basado en ideas y estructuras de JoanBot-TK, Genesis-AI y GataBot-MD.
-Gracias a los colaboradores y a la comunidad por su apoyo.
+Este proyecto se publica bajo **MIT License**. Cambia a la licencia que prefieras si aplica.
 
+---
 
+## 👥 Equipo y créditos
 
+| Avatar                                      |         Nombre | Rol                  |
+| ------------------------------------------- | -------------: | :------------------- |
+| ![LeoDev](https://github.com/leodevxyz.png) | **LeoDev.xyz** | Creador Principal    |
+| ![Maicol](https://github.com/maicol.png)    |     **Maicol** | Colaborador (Código) |
+| ![Joan TK](https://github.com/JJoan02.png)  |    **Joan TK** | Soporte & Asesoría   |
 
+---
+
+## 📬 Contacto
+
+* Web: [https://leoDev.xyz](https://leoDev.xyz)
+* GitHub: [https://github.com/leodevxyz](https://github.com/leodevxyz)
+* Soporte: [https://github.com/JJoan02](https://github.com/JJoan02)
+* Email: `hola@leodev.xyz` *(reemplaza por el contacto real antes de publicar)*
+
+---
+
+> ¿Quieres que adapte este README directamente al contenido real del repo (añadiendo tus scripts, `package.json`, y enlaces reales para Maicol y Joan TK)? Si sí, los incorporo ya mismo en el README.
