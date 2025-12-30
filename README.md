@@ -39,9 +39,7 @@
   </a>
 </p>
 
-> Si este repo te ayudó, pulsa ⭐ en GitHub — eso nos motiva muchísimo y ayuda al proyecto a crecer.
-
----
+> Si este repo te ayudó, pulsa ⭐ en GitHub, eso nos motiva muchísimo y ayuda al proyecto a crecer.
 
 ## 🧾 🔍 Descripción
 
