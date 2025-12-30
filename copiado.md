@@ -15,7 +15,7 @@
 
 ## 🔎 Resumen rápido
 
-Itsuki Nakano AI (aka *Yuki*) es un bot modular para WhatsApp basado en `baileys`. Diseñado para despliegues rápidos en Termux, Replit, VPS y Docker. Ideal para administradores de comunidades que desean automatización 24/7, módulos activables/desactivables, control de permisos y utilidades multimedia/AI/games.
+Itsuki Nakano AI es un bot modular para WhatsApp basado en `baileys`. Diseñado para despliegues rápidos en Termux, Replit, VPS y Docker. Ideal para administradores de comunidades que desean automatización 24/7, módulos activables/desactivables, control de permisos y utilidades multimedia/AI/games.
 
 ## ✨ Características destacadas
 
