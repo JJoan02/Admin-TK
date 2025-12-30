@@ -5,6 +5,10 @@
 # 📦 Itsuki Nakano AI
 
 <p align="center">
+  <a href="https://github.com/leodevxyz"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=7AF7FF&center=true&vCenter=true&width=435&lines=Proyecto+Oficial;Desarrollo+Activo+2025" alt="Proyecto Oficial"/></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/leoxito/Itsuki-NakanoV5"><img src="https://img.shields.io/github/stars/leoxito/Itsuki-NakanoV5?style=social" alt="GitHub stars" /></a>
   <img src="https://img.shields.io/badge/Node.js-v20%2B-green" alt="Node 20" />
   <img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Docker%20%7C%20Replit-blue" alt="Plataformas" />
