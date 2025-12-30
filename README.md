@@ -1,4 +1,4 @@
-# 📦 Tu-Project-Name
+# 📦 Itsuki Nakano AI
 
 <p align="center">
   <img src="https://h.uguu.se/TWZcBwLl.jpg" width="900" alt="Banner del Proyecto" />
