@@ -280,12 +280,7 @@ Si encuentras una vulnerabilidad, reporta a `hola@leodev.xyz` o usa el canal pri
 
 Este proyecto se publica bajo **MIT License**.
 
----
-
 ## 👥 Equipo y créditos
-
-<details>
-<summary><strong>Mostrar / Ocultar — Equipo</strong></summary>
 
 | Avatar                                      |         Nombre | Rol                  |
 | ------------------------------------------- | -------------: | :------------------- |
@@ -293,25 +288,9 @@ Este proyecto se publica bajo **MIT License**.
 | ![Maicol](https://github.com/maicol.png)    |     **Maicol** | Colaborador (Código) |
 | ![Joan TK](https://github.com/JJoan02.png)  |    **Joan TK** | Soporte & Asesoría   |
 
-</details>
-
----
-
 ## 📬 Contacto
 
 * Web: [https://leoDev.xyz](https://leoDev.xyz)
 * GitHub: [https://github.com/leodevxyz](https://github.com/leodevxyz)
 * Soporte: [https://github.com/JJoan02](https://github.com/JJoan02)
 * Email: `hola@leodev.xyz` *(reemplaza por el contacto real antes de publicar)*
-
----
-
-## ✨ Ideas extra (opcional)
-
-* Añadir una carpeta `/docs` con una landing HTML (GitHub Pages) para efectos visuales con CSS/JS.
-* Agregar GIFs de demostración (`/assets/demo.gif`) para mostrar comandos en acción.
-* Incluir badge de GitHub Actions para CI y tests.
-
----
-
-*README mejorado creado automáticamente — si quieres que genere también un `docs/index.html` con animaciones CSS y un preview interactivo, dime y lo creo.*
