@@ -203,6 +203,12 @@ bash ./scripts/backup-db.sh
 
 </details>
 
+## 📝 Historial de mejoras
+
+* **2025-12-29 — v1.0.0** — Lanzamiento inicial, estructura modular, docs mejoradas.
+* **2025-12-22 — v0.9.2** — Optimización de arranque, script de backup.
+* **2025-11-10 — v0.9.0** — Logs rotativos, soporte PM2, comandos multimedia.
+
 ## 👥 Créditos y colaboradores
 
 | Avatar                                      |         Nombre | Rol                  |
@@ -226,8 +232,3 @@ Si encuentras una vulnerabilidad: contacta por email `hola@leodev.xyz` o abre un
 ## 📝 Licencia
 
 Este proyecto se publica bajo **MIT License**. Consulta `LICENSE` para más detalles.
-
-## 🧾 Changelog mínimo
-
-* **2025-12-29 — v1.0.0** — README mejorado, modularidad, despliegue y docs.
-* **2025-12-22 — v0.9.2** — Optimización de arranque y backups.
