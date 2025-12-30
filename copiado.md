@@ -205,9 +205,11 @@ bash ./scripts/backup-db.sh
 
 ## 👥 Créditos y colaboradores
 
-* **Autor / Maintainer:** LeoDev.xyz — [https://github.com/leoxito](https://github.com/leoxito)
-* **Inspiración / recursos:** The-King-Destroy (YukiBot-MD) — algunos textos de guía e instalación
-* Colaboradores: Maicol, Joan TK y la comunidad.
+| Avatar                                      |         Nombre | Rol                  |
+| ------------------------------------------- | -------------: | :------------------- |
+| ![LeoDev](https://github.com/leoxito.png) | **LeoDev.xyz** | Creador Principal    |
+| ![Maicol](https://github.com/maicol.png)    |     **Maicol** | Colaborador (Código) |
+| ![Joan TK](https://github.com/JJoan02.png)  |    **Joan TK** | Soporte & Asesoría   |
 
 ## 📬 Enlaces y contacto
 
