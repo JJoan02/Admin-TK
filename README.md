@@ -26,13 +26,9 @@
 * [Licencia y créditos](#-licencia-y-créditos)
 * [Contacto](#-contacto)
 
----
-
 ## 🧾 🔍 Descripción
 
 **Tu-Project-Name** es un bot modular, estable y fácil de desplegar pensado para funcionar en Termux, Replit, servidores Linux/Windows y entornos Docker. Está diseñado para ser extensible (comandos como módulos), con administración de usuarios y un enfoque en la estabilidad y operaciones 24/7.
-
----
 
 ## ✨ Características principales
 
@@ -42,8 +38,6 @@
 * Integraciones opcionales con APIs externas.
 * Logs rotativos, backups automáticos y actualizaciones seguras.
 * Compatibilidad con PM2 para ejecución continua.
-
----
 
 ## ⚙️ Requisitos
 
